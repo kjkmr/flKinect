@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Checkboxes</key>
+	<array>
+		<dict>
+			<key>Key</key>
+			<string>Doc</string>
+			<key>Title</key>
+			<string>Create document-based application</string>
+		</dict>
+		<dict>
+			<key>Key</key>
+			<string>CoreData</string>
+			<key>Title</key>
+			<string>Use Core Data for storage</string>
+		</dict>
+		<dict>
+			<key>EnableRule</key>
+			<string>CoreData</string>
+			<key>Key</key>
+			<string>Spot</string>
+			<key>Title</key>
+			<string>Include Spotlight Importer</string>
+		</dict>
+	</array>
+	<key>TemplateSelection</key>
+	<dict>
+		<key></key>
+		<string>Cocoa Application</string>
+		<key>CoreData</key>
+		<string>Core Data Application</string>
+		<key>CoreDataSpot</key>
+		<string>Core Data Application with Spotlight Importer</string>
+		<key>Doc</key>
+		<string>Cocoa Document-based Application</string>
+		<key>DocCoreData</key>
+		<string>Core Data Document-based Application</string>
+		<key>DocCoreDataSpot</key>
+		<string>Core Data Document-based Application with Spotlight Importer</string>
+	</dict>
+</dict>
+</plist>

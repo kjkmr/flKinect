@@ -1,0 +1,1520 @@
+TflKinect
+v7
+r0
+t312369690.304494
+cCheck dependencies
+cProcessInfoPlistFile /Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app/Contents/Info.plist Info.plist
+cStripNIB /Users/kojikimura/git/flKinect/src/Cocoa/English.lproj/MainMenu.nib
+cCopyStringsFile /Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCpResource build/Release/flKinect.app/Contents/Resources/CMakeLists.txt libs/libfreenect/lib/CMakeLists.txt
+cCpResource build/Release/flKinect.app/Contents/Resources/icon.icns design/icon.icns
+cProcessPCH /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-cxzekzegltrzpmfeqsnutcdwcqou/flKinect_Prefix.pch.gch flKinect_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-hflixnsylezjvaajcdsniqrkvbuz/flKinect_Prefix.pch.gch flKinect_Prefix.pch normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/main.o /Users/kojikimura/git/flKinect/src/Cocoa/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/cameras.o /Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/cameras.c normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/core.o /Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/core.c normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/tilt.o /Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/tilt.c normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/usb_libusb10.o /Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/usb_libusb10.c normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/AppController.o /Users/kojikimura/git/flKinect/src/Cocoa/Classes/AppController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/SocketServer.o /Users/kojikimura/git/flKinect/src/Cocoa/Classes/SocketServer.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/Kinect.o /Users/kojikimura/git/flKinect/src/Cocoa/Classes/Kinect.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app/Contents/MacOS/flKinect normal x86_64
+cGenerateDSYMFile /Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app.dSYM /Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app/Contents/MacOS/flKinect
+cTouch /Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app
+
+N/Developer/SDKs/MacOSX10.5.sdk
+c000000004C39931F00000000000000EE
+t1278841631
+s238
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/GLUT.framework/Headers/glut.h
+c000000004864C81A000000000000563C
+t1214564378
+s22076
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl.h
+c000000004702C63B0000000000025B59
+t1191364155
+s154457
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/OpenGL.framework/Headers/glu.h
+c000000004702C63B0000000000003F8D
+t1191364155
+s16269
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/math.h
+c0000000047BA987000000000000004B7
+t1203411056
+s1207
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/net/if.h
+c0000000047E883BC00000000000033C4
+t1206420412
+s13252
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/netinet/in.h
+c0000000047E883C30000000000005346
+t1206420419
+s21318
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/pthread.h
+c0000000047BA9932000000000000380F
+t1203411250
+s14351
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/signal.h
+c0000000047BA993100000000000014F0
+t1203411249
+s5360
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/stdio.h
+c0000000047BA99310000000000003D1D
+t1203411249
+s15645
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/stdlib.h
+c0000000047BA99310000000000002A79
+t1203411249
+s10873
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/string.h
+c0000000047BA99320000000000001731
+t1203411250
+s5937
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/sys/time.h
+c0000000047E883D20000000000001E18
+t1206420434
+s7704
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/sys/types.h
+c0000000047E883D2000000000000290F
+t1206420434
+s10511
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/time.h
+c0000000047BA9932000000000000178E
+t1203411250
+s6030
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/unistd.h
+c0000000047BA993200000000000053FF
+t1203411250
+s21503
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/limits.h
+c000000004A11EAF10000000000000C7E
+t1242688241
+s3198
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdarg.h
+c000000004A11EAF100000000000010DD
+t1242688241
+s4317
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdbool.h
+c000000004A11EAF10000000000000644
+t1242688241
+s1604
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdint.h
+c000000004A11EAF1000000000000190C
+t1242688241
+s6412
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/kojikimura/Desktop/Cocoa Application/flKinect/Classes/AppController.h
+c000000004CEB8FD5000000000000017F
+t1290506197
+s383
+i<Cocoa/Cocoa.h>
+i"SocketServer.h"
+i"Kinect.h"
+
+N/Users/kojikimura/Desktop/Cocoa Application/flKinect/Classes/AppController.m
+c000000004CED20B60000000000000731
+t1290608822
+s1841
+i"AppController.h"
+
+N/Users/kojikimura/Desktop/Cocoa Application/flKinect/Classes/SocketServer.h
+c000000004CEB4E160000000000000167
+t1290489366
+s359
+i<Cocoa/Cocoa.h>
+i<netinet/in.h>
+i<net/if.h>
+
+N/Users/kojikimura/Desktop/Cocoa Application/flKinect/Classes/SocketServer.m
+c000000004CED3EC80000000000001110
+t1290616520
+s4368
+i"SocketServer.h"
+
+N/Users/kojikimura/Desktop/Cocoa Application/flKinect/English.lproj/InfoPlist.strings
+c000000004CEB5F8200000000000000C8
+t1290493826
+s200
+
+N/Users/kojikimura/Desktop/Cocoa Application/flKinect/English.lproj/MainMenu.nib
+c000000004CEC06FF0000000000000088
+t1290536703
+s136
+
+N/Users/kojikimura/Desktop/Cocoa Application/flKinect/Kinect.h
+c000000004CED4C920000000000000539
+t1290620050
+s1337
+i<Cocoa/Cocoa.h>
+i"libfreenect.h"
+
+N/Users/kojikimura/Desktop/Cocoa Application/flKinect/Kinect.m
+c000000004CED4EF0000000000000226D
+t1290620656
+s8813
+i"Kinect.h"
+i"libfreenect.h"
+
+N/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release/flKinect.app
+t1290620658
+s102
+
+N/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release/flKinect.app.dSYM
+t1290620658
+s102
+
+N/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release/flKinect.app/Contents/Info.plist
+t1290528897
+s829
+
+N/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release/flKinect.app/Contents/MacOS/flKinect
+t1290620657
+s47784
+
+N/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release/flKinect.app/Contents/PkgInfo
+t1290528897
+s8
+
+N/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release/flKinect.app/Contents/Resources/CMakeLists.txt
+t1290604369
+s1435
+
+N/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release/flKinect.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1290528897
+s200
+
+N/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release/flKinect.app/Contents/Resources/English.lproj/MainMenu.nib
+t1290536706
+s16338
+
+N/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release/flKinect.app/Contents/Resources/icon.icns
+t1290528897
+s25836
+
+N/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/AppController.o
+t1290620143
+s25700
+
+N/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/Kinect.o
+t1290620657
+s43648
+
+N/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/SocketServer.o
+t1290616563
+s25460
+
+N/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/cameras.o
+t1290604629
+s26376
+
+N/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/core.o
+t1290604629
+s15600
+
+N/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/flKinect.LinkFileList
+c000000004CEBE881000000000000040E
+t1290528897
+s1038
+
+N/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/main.o
+t1290529898
+s5672
+
+N/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/tilt.o
+t1290604629
+s10284
+
+N/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/usb_libusb10.o
+t1290604635
+s16180
+
+N/Users/kojikimura/Desktop/Cocoa Application/flKinect/design/icon.icns
+c000000004CEB0BD900000000000064EC
+t1290472409
+s25836
+
+N/Users/kojikimura/Desktop/Cocoa Application/flKinect/flKinect_Prefix.pch
+c000000004CEB5F820000000000000093
+t1290493826
+s147
+i<Cocoa/Cocoa.h>
+
+N/Users/kojikimura/Desktop/Cocoa Application/flKinect/libs/libfreenect/include/libfreenect.h
+c000000004CED104C00000000000010C1
+t1290604620
+s4289
+i<stdint.h>
+i<libusb.h>
+
+N/Users/kojikimura/Desktop/Cocoa Application/flKinect/libs/libfreenect/lib/CMakeLists.txt
+c000000004CED09D1000000000000059B
+t1290602961
+s1435
+
+N/Users/kojikimura/Desktop/Cocoa Application/flKinect/libs/libfreenect/lib/cameras.c
+c000000004CED09D10000000000003872
+t1290602961
+s14450
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<unistd.h>
+i"freenect_internal.h"
+
+N/Users/kojikimura/Desktop/Cocoa Application/flKinect/libs/libfreenect/lib/core.c
+c000000004CED09D10000000000000E16
+t1290602961
+s3606
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<stdarg.h>
+i<unistd.h>
+i"freenect_internal.h"
+
+N/Users/kojikimura/Desktop/Cocoa Application/flKinect/libs/libfreenect/lib/freenect_internal.h
+c000000004CED09D10000000000000F82
+t1290602961
+s3970
+i<stdint.h>
+i"libfreenect.h"
+i"usb_libusb10.h"
+
+N/Users/kojikimura/Desktop/Cocoa Application/flKinect/libs/libfreenect/lib/tilt.c
+c000000004CED09D10000000000000BDB
+t1290602961
+s3035
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<unistd.h>
+i<math.h>
+i"freenect_internal.h"
+
+N/Users/kojikimura/Desktop/Cocoa Application/flKinect/libs/libfreenect/lib/usb_libusb10.c
+c000000004CED105B000000000000175B
+t1290604635
+s5979
+i<stdio.h>
+i<stdbool.h>
+i<stdlib.h>
+i<string.h>
+i<libusb.h>
+i"freenect_internal.h"
+
+N/Users/kojikimura/Desktop/Cocoa Application/flKinect/libs/libfreenect/lib/usb_libusb10.h
+c000000004CED10530000000000000B67
+t1290604627
+s2919
+i<libusb.h>
+
+N/Users/kojikimura/Desktop/Cocoa Application/flKinect/libs/libusb/include/libusb.h
+c000000004CEB5CB6000000000000AFE5
+t1290493110
+s45029
+i<stdint.h>
+i<sys/types.h>
+i<time.h>
+i<limits.h>
+i<sys/time.h>
+i<windows.h>
+
+N/Users/kojikimura/Desktop/Cocoa Application/flKinect/libs/libusb/lib/libusb-1.0.0.dylib
+c000000004CEB5CC20000000000012320
+t1290493122
+s74528
+
+N/Users/kojikimura/Desktop/Cocoa Application/flKinect/main.m
+c000000004CEB9B830000000000000184
+t1290509187
+s388
+i<Cocoa/Cocoa.h>
+i<signal.h>
+
+N/Users/kojikimura/git/flKinect/src/Cocoa/Classes/AppController.h
+c000000004CEE295500000000000004FB
+t1290676565
+s1275
+i<Cocoa/Cocoa.h>
+i"SocketServer.h"
+i"Kinect.h"
+
+N/Users/kojikimura/git/flKinect/src/Cocoa/Classes/AppController.m
+c000000004CEE295B0000000000000AAD
+t1290676571
+s2733
+i"AppController.h"
+
+N/Users/kojikimura/git/flKinect/src/Cocoa/Classes/Kinect.h
+c000000004CEE294F00000000000008BC
+t1290676559
+s2236
+i<Cocoa/Cocoa.h>
+i"libfreenect.h"
+
+N/Users/kojikimura/git/flKinect/src/Cocoa/Classes/Kinect.m
+c000000004CEE295300000000000025F0
+t1290676563
+s9712
+i"Kinect.h"
+i"libfreenect.h"
+
+N/Users/kojikimura/git/flKinect/src/Cocoa/Classes/SocketServer.h
+c000000004CEE295E00000000000004E7
+t1290676574
+s1255
+i<Cocoa/Cocoa.h>
+i<netinet/in.h>
+i<net/if.h>
+
+N/Users/kojikimura/git/flKinect/src/Cocoa/Classes/SocketServer.m
+c000000004CEE29600000000000001490
+t1290676576
+s5264
+i"SocketServer.h"
+
+N/Users/kojikimura/git/flKinect/src/Cocoa/English.lproj/InfoPlist.strings
+c000000004CEE2A4300000000000000BA
+t1290676803
+s186
+
+N/Users/kojikimura/git/flKinect/src/Cocoa/English.lproj/MainMenu.nib
+c000000004CEC06FF0000000000000088
+t1290536703
+s136
+
+N/Users/kojikimura/git/flKinect/src/Cocoa/Kinect.h
+c000000004CED4C920000000000000539
+t1290620050
+s1337
+i<Cocoa/Cocoa.h>
+i"libfreenect.h"
+
+N/Users/kojikimura/git/flKinect/src/Cocoa/Kinect.m
+c000000004CED4EF0000000000000226D
+t1290620656
+s8813
+i"Kinect.h"
+i"libfreenect.h"
+
+N/Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app
+t1290676830
+s102
+
+N/Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app.dSYM
+t1290676830
+s102
+
+N/Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app/Contents/Info.plist
+t1290676828
+s825
+
+N/Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app/Contents/MacOS/flKinect
+t1290676830
+s47584
+
+N/Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app/Contents/PkgInfo
+t1290676828
+s8
+
+N/Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app/Contents/Resources/CMakeLists.txt
+t1290604369
+s1435
+
+N/Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1290676828
+s186
+
+N/Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app/Contents/Resources/English.lproj/MainMenu.nib
+t1290536706
+s16338
+
+N/Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app/Contents/Resources/icon.icns
+t1290528897
+s25836
+
+N/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/i386/AppController.o
+t1290676874
+s20112
+
+N/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/i386/Kinect.o
+t1290676874
+s31124
+
+N/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/i386/SocketServer.o
+t1290676874
+s17752
+
+N/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/i386/cameras.o
+t1290676874
+s20416
+
+N/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/i386/core.o
+t1290676873
+s12252
+
+N/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/i386/flKinect
+t2
+s0
+
+N/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/i386/flKinect.LinkFileList
+c000000004CEE2A83000000000000039E
+t1290676867
+s926
+
+N/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/i386/main.o
+t1290676873
+s5172
+
+N/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/i386/tilt.o
+t1290676874
+s8700
+
+N/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/i386/usb_libusb10.o
+t1290676874
+s13100
+
+N/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/ppc/AppController.o
+t1290676875
+s20556
+
+N/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/ppc/Kinect.o
+t1290676875
+s36916
+
+N/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/ppc/SocketServer.o
+t1290676875
+s20116
+
+N/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/ppc/cameras.o
+t1290676874
+s20552
+
+N/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/ppc/core.o
+t1290676874
+s12404
+
+N/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/ppc/flKinect
+t2
+s0
+
+N/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/ppc/flKinect.LinkFileList
+c000000004CEE2A830000000000000396
+t1290676867
+s918
+
+N/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/ppc/main.o
+t1290676874
+s5292
+
+N/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/ppc/tilt.o
+t1290676874
+s9044
+
+N/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/ppc/usb_libusb10.o
+t1290676875
+s13400
+
+N/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/AppController.o
+t1290676828
+s25620
+
+N/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/Kinect.o
+t1290676829
+s43632
+
+N/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/SocketServer.o
+t1290676829
+s25436
+
+N/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/cameras.o
+t1290676495
+s26328
+
+N/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/core.o
+t1290676495
+s15552
+
+N/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/flKinect
+t1290676873
+s47584
+
+N/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/flKinect.LinkFileList
+c000000004CEE290B00000000000003AE
+t1290676491
+s942
+
+N/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/main.o
+t1290676828
+s5648
+
+N/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/tilt.o
+t1290676495
+s10236
+
+N/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/usb_libusb10.o
+t1290676495
+s16132
+
+N/Users/kojikimura/git/flKinect/src/Cocoa/design/icon.icns
+c000000004CEB0BD900000000000064EC
+t1290472409
+s25836
+
+N/Users/kojikimura/git/flKinect/src/Cocoa/flKinect_Prefix.pch
+c000000004CEB5F820000000000000093
+t1290493826
+s147
+i<Cocoa/Cocoa.h>
+
+N/Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/include/libfreenect.h
+c000000004CED104C00000000000010C1
+t1290604620
+s4289
+i<stdint.h>
+i<libusb.h>
+
+N/Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/CMakeLists.txt
+c000000004CED09D1000000000000059B
+t1290602961
+s1435
+
+N/Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/cameras.c
+c000000004CED09D10000000000003872
+t1290602961
+s14450
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<unistd.h>
+i"freenect_internal.h"
+
+N/Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/core.c
+c000000004CED09D10000000000000E16
+t1290602961
+s3606
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<stdarg.h>
+i<unistd.h>
+i"freenect_internal.h"
+
+N/Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/freenect_internal.h
+c000000004CED09D10000000000000F82
+t1290602961
+s3970
+i<stdint.h>
+i"libfreenect.h"
+i"usb_libusb10.h"
+
+N/Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/tilt.c
+c000000004CED09D10000000000000BDB
+t1290602961
+s3035
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<unistd.h>
+i<math.h>
+i"freenect_internal.h"
+
+N/Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/usb_libusb10.c
+c000000004CED105B000000000000175B
+t1290604635
+s5979
+i<stdio.h>
+i<stdbool.h>
+i<stdlib.h>
+i<string.h>
+i<libusb.h>
+i"freenect_internal.h"
+
+N/Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/usb_libusb10.h
+c000000004CED10530000000000000B67
+t1290604627
+s2919
+i<libusb.h>
+
+N/Users/kojikimura/git/flKinect/src/Cocoa/libs/libusb/include/libusb.h
+c000000004CEB5CB6000000000000AFE5
+t1290493110
+s45029
+i<stdint.h>
+i<sys/types.h>
+i<time.h>
+i<limits.h>
+i<sys/time.h>
+i<windows.h>
+
+N/Users/kojikimura/git/flKinect/src/Cocoa/libs/libusb/lib/libusb-1.0.0.dylib
+c000000004CEB5CC20000000000012320
+t1290493122
+s74528
+
+N/Users/kojikimura/git/flKinect/src/Cocoa/main.m
+c000000004CEE2967000000000000050B
+t1290676583
+s1291
+i<Cocoa/Cocoa.h>
+i<signal.h>
+
+N/var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-aapuqrmgdqzsmfefbypqkubnbifs/flKinect_Prefix.pch.gch
+t1290529536
+s49819920
+
+N/var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-abisyekdmualzwbkghtcagpwgaok/flKinect_Prefix.pch.gch
+t1290676867
+s2187632
+
+N/var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-anppgkyivrjduqfjlflwrmaudoym/flKinect_Prefix.pch.gch
+t1290528897
+s2195824
+
+N/var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-ccgoogozuxhnpwdziprufhjstoxn/flKinect_Prefix.pch.gch
+t1290529761
+s49819920
+
+N/var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-cxzekzegltrzpmfeqsnutcdwcqou/flKinect_Prefix.pch.gch
+t1290676494
+s49819920
+
+N/var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-effboytimjllylagbxxmshobrodo/flKinect_Prefix.pch.gch
+t1290676873
+s52740496
+
+N/var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-enulhrqnvuqjaacbenqicewjcgut/flKinect_Prefix.pch.gch
+t1290528902
+s49819920
+
+N/var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-evbxmskucmldqvfkbdewtjaofblh/flKinect_Prefix.pch.gch
+t1290676873
+s1950064
+
+N/var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-ghfyzpwtupokgycabknecgjfypcc/flKinect_Prefix.pch.gch
+t1290676873
+s49975504
+
+N/var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-hflixnsylezjvaajcdsniqrkvbuz/flKinect_Prefix.pch.gch
+t1290676491
+s2195824
+
+NInfo.plist
+c000000004CEE29A7000000000000034A
+t1290676647
+s842
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies312369690#312369690#0(0"0(0#1#0"8615254272#0"0#
+
+CCompileC build/flKinect.build/Release/flKinect.build/Objects-normal/i386/AppController.o /Users/kojikimura/git/flKinect/src/Cocoa/Classes/AppController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312369674.114214
+e312369674.366223
+r1
+xCompileC
+xbuild/flKinect.build/Release/flKinect.build/Objects-normal/i386/AppController.o
+x/Users/kojikimura/git/flKinect/src/Cocoa/Classes/AppController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/kojikimura/git/flKinect/src/Cocoa/Classes/AppController.m312369674#312369674#0(0"0(0#0#64"/Users/kojikimura/git/flKinect/src/Cocoa/Classes/AppController.m8613576896#1152"    cd /Users/kojikimura/git/flKinect/src/Cocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/flKinect.hmap -F/Users/kojikimura/git/flKinect/src/Cocoa/build/Release -I/Users/kojikimura/git/flKinect/src/Cocoa/build/Release/include -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/DerivedSources/i386 -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/DerivedSources -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-effboytimjllylagbxxmshobrodo/flKinect_Prefix.pch -c /Users/kojikimura/git/flKinect/src/Cocoa/Classes/AppController.m -o /Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/i386/AppController.o0#
+
+CCompileC build/flKinect.build/Release/flKinect.build/Objects-normal/i386/Kinect.o /Users/kojikimura/git/flKinect/src/Cocoa/Classes/Kinect.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312369674.366331
+e312369674.736966
+r1
+xCompileC
+xbuild/flKinect.build/Release/flKinect.build/Objects-normal/i386/Kinect.o
+x/Users/kojikimura/git/flKinect/src/Cocoa/Classes/Kinect.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/kojikimura/git/flKinect/src/Cocoa/Classes/Kinect.m312369674#312369674#0(0"0(0#0#57"/Users/kojikimura/git/flKinect/src/Cocoa/Classes/Kinect.m8607929664#1138"    cd /Users/kojikimura/git/flKinect/src/Cocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/flKinect.hmap -F/Users/kojikimura/git/flKinect/src/Cocoa/build/Release -I/Users/kojikimura/git/flKinect/src/Cocoa/build/Release/include -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/DerivedSources/i386 -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/DerivedSources -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-effboytimjllylagbxxmshobrodo/flKinect_Prefix.pch -c /Users/kojikimura/git/flKinect/src/Cocoa/Classes/Kinect.m -o /Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/i386/Kinect.o0#
+
+CCompileC build/flKinect.build/Release/flKinect.build/Objects-normal/i386/SocketServer.o /Users/kojikimura/git/flKinect/src/Cocoa/Classes/SocketServer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312369674.170868
+e312369674.409286
+r1
+xCompileC
+xbuild/flKinect.build/Release/flKinect.build/Objects-normal/i386/SocketServer.o
+x/Users/kojikimura/git/flKinect/src/Cocoa/Classes/SocketServer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/kojikimura/git/flKinect/src/Cocoa/Classes/SocketServer.m312369674#312369674#0(0"0(0#0#63"/Users/kojikimura/git/flKinect/src/Cocoa/Classes/SocketServer.m8613110976#1150"    cd /Users/kojikimura/git/flKinect/src/Cocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/flKinect.hmap -F/Users/kojikimura/git/flKinect/src/Cocoa/build/Release -I/Users/kojikimura/git/flKinect/src/Cocoa/build/Release/include -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/DerivedSources/i386 -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/DerivedSources -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-effboytimjllylagbxxmshobrodo/flKinect_Prefix.pch -c /Users/kojikimura/git/flKinect/src/Cocoa/Classes/SocketServer.m -o /Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/i386/SocketServer.o0#
+
+CCompileC build/flKinect.build/Release/flKinect.build/Objects-normal/i386/cameras.o /Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/cameras.c normal i386 c com.apple.compilers.gcc.4_2
+s312369673.869079
+e312369674.114122
+r1
+xCompileC
+xbuild/flKinect.build/Release/flKinect.build/Objects-normal/i386/cameras.o
+x/Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/cameras.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/cameras.c312369673#312369674#0(0"0(0#0#71"/Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/cameras.c8614640608#1143"    cd /Users/kojikimura/git/flKinect/src/Cocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/flKinect.hmap -F/Users/kojikimura/git/flKinect/src/Cocoa/build/Release -I/Users/kojikimura/git/flKinect/src/Cocoa/build/Release/include -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/DerivedSources/i386 -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/DerivedSources -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-abisyekdmualzwbkghtcagpwgaok/flKinect_Prefix.pch -c /Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/cameras.c -o /Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/i386/cameras.o0#
+
+CCompileC build/flKinect.build/Release/flKinect.build/Objects-normal/i386/core.o /Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/core.c normal i386 c com.apple.compilers.gcc.4_2
+s312369673.905946
+e312369673.982519
+r1
+xCompileC
+xbuild/flKinect.build/Release/flKinect.build/Objects-normal/i386/core.o
+x/Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/core.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/core.c312369673#312369673#0(0"0(0#0#68"/Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/core.c8614381056#1137"    cd /Users/kojikimura/git/flKinect/src/Cocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/flKinect.hmap -F/Users/kojikimura/git/flKinect/src/Cocoa/build/Release -I/Users/kojikimura/git/flKinect/src/Cocoa/build/Release/include -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/DerivedSources/i386 -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/DerivedSources -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-abisyekdmualzwbkghtcagpwgaok/flKinect_Prefix.pch -c /Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/core.c -o /Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/i386/core.o0#
+
+CCompileC build/flKinect.build/Release/flKinect.build/Objects-normal/i386/main.o /Users/kojikimura/git/flKinect/src/Cocoa/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312369673.692382
+e312369673.868991
+r1
+xCompileC
+xbuild/flKinect.build/Release/flKinect.build/Objects-normal/i386/main.o
+x/Users/kojikimura/git/flKinect/src/Cocoa/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/kojikimura/git/flKinect/src/Cocoa/main.m312369673#312369673#0(0"0(0#0#47"/Users/kojikimura/git/flKinect/src/Cocoa/main.m8613358272#1126"    cd /Users/kojikimura/git/flKinect/src/Cocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/flKinect.hmap -F/Users/kojikimura/git/flKinect/src/Cocoa/build/Release -I/Users/kojikimura/git/flKinect/src/Cocoa/build/Release/include -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/DerivedSources/i386 -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/DerivedSources -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-effboytimjllylagbxxmshobrodo/flKinect_Prefix.pch -c /Users/kojikimura/git/flKinect/src/Cocoa/main.m -o /Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/i386/main.o0#
+
+CCompileC build/flKinect.build/Release/flKinect.build/Objects-normal/i386/tilt.o /Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/tilt.c normal i386 c com.apple.compilers.gcc.4_2
+s312369673.982606
+e312369674.051018
+r1
+xCompileC
+xbuild/flKinect.build/Release/flKinect.build/Objects-normal/i386/tilt.o
+x/Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/tilt.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/tilt.c312369673#312369674#0(0"0(0#0#68"/Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/tilt.c8613828064#1137"    cd /Users/kojikimura/git/flKinect/src/Cocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/flKinect.hmap -F/Users/kojikimura/git/flKinect/src/Cocoa/build/Release -I/Users/kojikimura/git/flKinect/src/Cocoa/build/Release/include -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/DerivedSources/i386 -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/DerivedSources -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-abisyekdmualzwbkghtcagpwgaok/flKinect_Prefix.pch -c /Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/tilt.c -o /Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/i386/tilt.o0#
+
+CCompileC build/flKinect.build/Release/flKinect.build/Objects-normal/i386/usb_libusb10.o /Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/usb_libusb10.c normal i386 c com.apple.compilers.gcc.4_2
+s312369674.051127
+e312369674.170775
+r1
+xCompileC
+xbuild/flKinect.build/Release/flKinect.build/Objects-normal/i386/usb_libusb10.o
+x/Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/usb_libusb10.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/usb_libusb10.c312369674#312369674#0(0"0(0#0#76"/Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/usb_libusb10.c8614567840#1153"    cd /Users/kojikimura/git/flKinect/src/Cocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/flKinect.hmap -F/Users/kojikimura/git/flKinect/src/Cocoa/build/Release -I/Users/kojikimura/git/flKinect/src/Cocoa/build/Release/include -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/DerivedSources/i386 -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/DerivedSources -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-abisyekdmualzwbkghtcagpwgaok/flKinect_Prefix.pch -c /Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/usb_libusb10.c -o /Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/i386/usb_libusb10.o0#
+
+CCompileC build/flKinect.build/Release/flKinect.build/Objects-normal/ppc/AppController.o /Users/kojikimura/git/flKinect/src/Cocoa/Classes/AppController.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s312369675.049237
+e312369675.289522
+r1
+xCompileC
+xbuild/flKinect.build/Release/flKinect.build/Objects-normal/ppc/AppController.o
+x/Users/kojikimura/git/flKinect/src/Cocoa/Classes/AppController.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/kojikimura/git/flKinect/src/Cocoa/Classes/AppController.m312369675#312369675#0(0"0(0#0#64"/Users/kojikimura/git/flKinect/src/Cocoa/Classes/AppController.m8613976288#1159"    cd /Users/kojikimura/git/flKinect/src/Cocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/flKinect.hmap -F/Users/kojikimura/git/flKinect/src/Cocoa/build/Release -I/Users/kojikimura/git/flKinect/src/Cocoa/build/Release/include -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/DerivedSources/ppc -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/DerivedSources -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-ghfyzpwtupokgycabknecgjfypcc/flKinect_Prefix.pch -c /Users/kojikimura/git/flKinect/src/Cocoa/Classes/AppController.m -o /Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/ppc/AppController.o0#
+
+CCompileC build/flKinect.build/Release/flKinect.build/Objects-normal/ppc/Kinect.o /Users/kojikimura/git/flKinect/src/Cocoa/Classes/Kinect.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s312369675.289603
+e312369675.651041
+r1
+xCompileC
+xbuild/flKinect.build/Release/flKinect.build/Objects-normal/ppc/Kinect.o
+x/Users/kojikimura/git/flKinect/src/Cocoa/Classes/Kinect.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/kojikimura/git/flKinect/src/Cocoa/Classes/Kinect.m312369675#312369675#0(0"0(0#0#57"/Users/kojikimura/git/flKinect/src/Cocoa/Classes/Kinect.m8609831968#1145"    cd /Users/kojikimura/git/flKinect/src/Cocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/flKinect.hmap -F/Users/kojikimura/git/flKinect/src/Cocoa/build/Release -I/Users/kojikimura/git/flKinect/src/Cocoa/build/Release/include -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/DerivedSources/ppc -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/DerivedSources -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-ghfyzpwtupokgycabknecgjfypcc/flKinect_Prefix.pch -c /Users/kojikimura/git/flKinect/src/Cocoa/Classes/Kinect.m -o /Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/ppc/Kinect.o0#
+
+CCompileC build/flKinect.build/Release/flKinect.build/Objects-normal/ppc/SocketServer.o /Users/kojikimura/git/flKinect/src/Cocoa/Classes/SocketServer.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s312369675.161485
+e312369675.464520
+r1
+xCompileC
+xbuild/flKinect.build/Release/flKinect.build/Objects-normal/ppc/SocketServer.o
+x/Users/kojikimura/git/flKinect/src/Cocoa/Classes/SocketServer.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/kojikimura/git/flKinect/src/Cocoa/Classes/SocketServer.m312369675#312369675#0(0"0(0#0#63"/Users/kojikimura/git/flKinect/src/Cocoa/Classes/SocketServer.m8612505568#1157"    cd /Users/kojikimura/git/flKinect/src/Cocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/flKinect.hmap -F/Users/kojikimura/git/flKinect/src/Cocoa/build/Release -I/Users/kojikimura/git/flKinect/src/Cocoa/build/Release/include -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/DerivedSources/ppc -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/DerivedSources -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-ghfyzpwtupokgycabknecgjfypcc/flKinect_Prefix.pch -c /Users/kojikimura/git/flKinect/src/Cocoa/Classes/SocketServer.m -o /Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/ppc/SocketServer.o0#
+
+CCompileC build/flKinect.build/Release/flKinect.build/Objects-normal/ppc/cameras.o /Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/cameras.c normal ppc c com.apple.compilers.gcc.4_2
+s312369674.571445
+e312369674.785341
+r1
+xCompileC
+xbuild/flKinect.build/Release/flKinect.build/Objects-normal/ppc/cameras.o
+x/Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/cameras.c
+xnormal
+xppc
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/cameras.c312369674#312369674#0(0"0(0#0#71"/Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/cameras.c8610747232#1150"    cd /Users/kojikimura/git/flKinect/src/Cocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/flKinect.hmap -F/Users/kojikimura/git/flKinect/src/Cocoa/build/Release -I/Users/kojikimura/git/flKinect/src/Cocoa/build/Release/include -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/DerivedSources/ppc -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/DerivedSources -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-evbxmskucmldqvfkbdewtjaofblh/flKinect_Prefix.pch -c /Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/cameras.c -o /Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/ppc/cameras.o0#
+
+CCompileC build/flKinect.build/Release/flKinect.build/Objects-normal/ppc/core.o /Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/core.c normal ppc c com.apple.compilers.gcc.4_2
+s312369674.785490
+e312369674.863189
+r1
+xCompileC
+xbuild/flKinect.build/Release/flKinect.build/Objects-normal/ppc/core.o
+x/Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/core.c
+xnormal
+xppc
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/core.c312369674#312369674#0(0"0(0#0#68"/Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/core.c8613964864#1144"    cd /Users/kojikimura/git/flKinect/src/Cocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/flKinect.hmap -F/Users/kojikimura/git/flKinect/src/Cocoa/build/Release -I/Users/kojikimura/git/flKinect/src/Cocoa/build/Release/include -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/DerivedSources/ppc -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/DerivedSources -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-evbxmskucmldqvfkbdewtjaofblh/flKinect_Prefix.pch -c /Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/core.c -o /Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/ppc/core.o0#
+
+CCompileC build/flKinect.build/Release/flKinect.build/Objects-normal/ppc/main.o /Users/kojikimura/git/flKinect/src/Cocoa/main.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s312369674.409389
+e312369674.571352
+r1
+xCompileC
+xbuild/flKinect.build/Release/flKinect.build/Objects-normal/ppc/main.o
+x/Users/kojikimura/git/flKinect/src/Cocoa/main.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/kojikimura/git/flKinect/src/Cocoa/main.m312369674#312369674#0(0"0(0#0#47"/Users/kojikimura/git/flKinect/src/Cocoa/main.m8603913024#1133"    cd /Users/kojikimura/git/flKinect/src/Cocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/flKinect.hmap -F/Users/kojikimura/git/flKinect/src/Cocoa/build/Release -I/Users/kojikimura/git/flKinect/src/Cocoa/build/Release/include -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/DerivedSources/ppc -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/DerivedSources -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-ghfyzpwtupokgycabknecgjfypcc/flKinect_Prefix.pch -c /Users/kojikimura/git/flKinect/src/Cocoa/main.m -o /Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/ppc/main.o0#
+
+CCompileC build/flKinect.build/Release/flKinect.build/Objects-normal/ppc/tilt.o /Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/tilt.c normal ppc c com.apple.compilers.gcc.4_2
+s312369674.863281
+e312369674.946361
+r1
+xCompileC
+xbuild/flKinect.build/Release/flKinect.build/Objects-normal/ppc/tilt.o
+x/Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/tilt.c
+xnormal
+xppc
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/tilt.c312369674#312369674#0(0"0(0#0#68"/Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/tilt.c8613344576#1144"    cd /Users/kojikimura/git/flKinect/src/Cocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/flKinect.hmap -F/Users/kojikimura/git/flKinect/src/Cocoa/build/Release -I/Users/kojikimura/git/flKinect/src/Cocoa/build/Release/include -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/DerivedSources/ppc -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/DerivedSources -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-evbxmskucmldqvfkbdewtjaofblh/flKinect_Prefix.pch -c /Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/tilt.c -o /Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/ppc/tilt.o0#
+
+CCompileC build/flKinect.build/Release/flKinect.build/Objects-normal/ppc/usb_libusb10.o /Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/usb_libusb10.c normal ppc c com.apple.compilers.gcc.4_2
+s312369674.946447
+e312369675.049129
+r1
+xCompileC
+xbuild/flKinect.build/Release/flKinect.build/Objects-normal/ppc/usb_libusb10.o
+x/Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/usb_libusb10.c
+xnormal
+xppc
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/usb_libusb10.c312369674#312369675#0(0"0(0#0#76"/Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/usb_libusb10.c8613894688#1160"    cd /Users/kojikimura/git/flKinect/src/Cocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/flKinect.hmap -F/Users/kojikimura/git/flKinect/src/Cocoa/build/Release -I/Users/kojikimura/git/flKinect/src/Cocoa/build/Release/include -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/DerivedSources/ppc -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/DerivedSources -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-evbxmskucmldqvfkbdewtjaofblh/flKinect_Prefix.pch -c /Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/usb_libusb10.c -o /Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/ppc/usb_libusb10.o0#
+
+CCompileC build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/AppController.o "/Users/kojikimura/Desktop/Cocoa Application/flKinect/Classes/AppController.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s312312943.279927
+e312312943.880966
+r1
+xCompileC
+xbuild/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/AppController.o
+x/Users/kojikimura/Desktop/Cocoa Application/flKinect/Classes/AppController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/kojikimura/Desktop/Cocoa Application/flKinect/Classes/AppController.m312312943#312312943#0(0"0(0#0#76"/Users/kojikimura/Desktop/Cocoa Application/flKinect/Classes/AppController.m8627679296#1270"    cd "/Users/kojikimura/Desktop/Cocoa Application/flKinect"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/flKinect.build/Release/flKinect.build/flKinect.hmap" "-F/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release" "-I/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release/include" "-I/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/flKinect.build/Release/flKinect.build/DerivedSources/x86_64" "-I/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/flKinect.build/Release/flKinect.build/DerivedSources" -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-enulhrqnvuqjaacbenqicewjcgut/flKinect_Prefix.pch -c "/Users/kojikimura/Desktop/Cocoa Application/flKinect/Classes/AppController.m" -o "/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/AppController.o"0#
+
+CCompileC build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/AppController.o /Users/kojikimura/git/flKinect/src/Cocoa/Classes/AppController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s312369628.650433
+e312369629.087355
+r1
+xCompileC
+xbuild/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/AppController.o
+x/Users/kojikimura/git/flKinect/src/Cocoa/Classes/AppController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/kojikimura/git/flKinect/src/Cocoa/Classes/AppController.m312369628#312369629#0(0"0(0#0#64"/Users/kojikimura/git/flKinect/src/Cocoa/Classes/AppController.m8609502560#1158"    cd /Users/kojikimura/git/flKinect/src/Cocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/flKinect.hmap -F/Users/kojikimura/git/flKinect/src/Cocoa/build/Release -I/Users/kojikimura/git/flKinect/src/Cocoa/build/Release/include -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/DerivedSources/x86_64 -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/DerivedSources -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-cxzekzegltrzpmfeqsnutcdwcqou/flKinect_Prefix.pch -c /Users/kojikimura/git/flKinect/src/Cocoa/Classes/AppController.m -o /Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/AppController.o0#
+
+CCompileC build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/Kinect.o "/Users/kojikimura/Desktop/Cocoa Application/flKinect/Kinect.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s312313457.108932
+e312313457.753451
+r1
+xCompileC
+xbuild/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/Kinect.o
+x/Users/kojikimura/Desktop/Cocoa Application/flKinect/Kinect.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/kojikimura/Desktop/Cocoa Application/flKinect/Kinect.m312313457#312313457#0(0"0(0#0#61"/Users/kojikimura/Desktop/Cocoa Application/flKinect/Kinect.m8621949376#1248"    cd "/Users/kojikimura/Desktop/Cocoa Application/flKinect"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/flKinect.build/Release/flKinect.build/flKinect.hmap" "-F/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release" "-I/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release/include" "-I/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/flKinect.build/Release/flKinect.build/DerivedSources/x86_64" "-I/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/flKinect.build/Release/flKinect.build/DerivedSources" -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-enulhrqnvuqjaacbenqicewjcgut/flKinect_Prefix.pch -c "/Users/kojikimura/Desktop/Cocoa Application/flKinect/Kinect.m" -o "/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/Kinect.o"0#
+
+CCompileC build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/Kinect.o /Users/kojikimura/git/flKinect/src/Cocoa/Classes/Kinect.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s312369629.087481
+e312369629.776319
+r1
+xCompileC
+xbuild/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/Kinect.o
+x/Users/kojikimura/git/flKinect/src/Cocoa/Classes/Kinect.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/kojikimura/git/flKinect/src/Cocoa/Classes/Kinect.m312369629#312369629#0(0"0(0#0#57"/Users/kojikimura/git/flKinect/src/Cocoa/Classes/Kinect.m8613910080#1144"    cd /Users/kojikimura/git/flKinect/src/Cocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/flKinect.hmap -F/Users/kojikimura/git/flKinect/src/Cocoa/build/Release -I/Users/kojikimura/git/flKinect/src/Cocoa/build/Release/include -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/DerivedSources/x86_64 -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/DerivedSources -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-cxzekzegltrzpmfeqsnutcdwcqou/flKinect_Prefix.pch -c /Users/kojikimura/git/flKinect/src/Cocoa/Classes/Kinect.m -o /Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/Kinect.o0#
+
+CCompileC build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/Kinect.o /Users/kojikimura/git/flKinect/src/Cocoa/Kinect.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s312369295.677534
+e312369296.001064
+r1
+xCompileC
+xbuild/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/Kinect.o
+x/Users/kojikimura/git/flKinect/src/Cocoa/Kinect.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/kojikimura/git/flKinect/src/Cocoa/Kinect.m312369295#312369296#0(0"0(0#0#49"/Users/kojikimura/git/flKinect/src/Cocoa/Kinect.m8597826048#1136"    cd /Users/kojikimura/git/flKinect/src/Cocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/flKinect.hmap -F/Users/kojikimura/git/flKinect/src/Cocoa/build/Release -I/Users/kojikimura/git/flKinect/src/Cocoa/build/Release/include -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/DerivedSources/x86_64 -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/DerivedSources -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-cxzekzegltrzpmfeqsnutcdwcqou/flKinect_Prefix.pch -c /Users/kojikimura/git/flKinect/src/Cocoa/Kinect.m -o /Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/Kinect.o0#
+
+CCompileC build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/SocketServer.o "/Users/kojikimura/Desktop/Cocoa Application/flKinect/Classes/SocketServer.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s312309362.673370
+e312309363.393602
+r1
+xCompileC
+xbuild/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/SocketServer.o
+x/Users/kojikimura/Desktop/Cocoa Application/flKinect/Classes/SocketServer.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/kojikimura/Desktop/Cocoa Application/flKinect/Classes/SocketServer.m312309362#312309363#0(0"0(0#0#75"/Users/kojikimura/Desktop/Cocoa Application/flKinect/Classes/SocketServer.m8626616960#1268"    cd "/Users/kojikimura/Desktop/Cocoa Application/flKinect"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/flKinect.build/Release/flKinect.build/flKinect.hmap" "-F/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release" "-I/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release/include" "-I/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/flKinect.build/Release/flKinect.build/DerivedSources/x86_64" "-I/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/flKinect.build/Release/flKinect.build/DerivedSources" -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-enulhrqnvuqjaacbenqicewjcgut/flKinect_Prefix.pch -c "/Users/kojikimura/Desktop/Cocoa Application/flKinect/Classes/SocketServer.m" -o "/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/SocketServer.o"0#
+
+CCompileC build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/SocketServer.o /Users/kojikimura/git/flKinect/src/Cocoa/Classes/SocketServer.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s312369628.798207
+e312369629.444825
+r1
+xCompileC
+xbuild/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/SocketServer.o
+x/Users/kojikimura/git/flKinect/src/Cocoa/Classes/SocketServer.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/kojikimura/git/flKinect/src/Cocoa/Classes/SocketServer.m312369628#312369629#0(0"0(0#0#63"/Users/kojikimura/git/flKinect/src/Cocoa/Classes/SocketServer.m8608705024#1156"    cd /Users/kojikimura/git/flKinect/src/Cocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/flKinect.hmap -F/Users/kojikimura/git/flKinect/src/Cocoa/build/Release -I/Users/kojikimura/git/flKinect/src/Cocoa/build/Release/include -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/DerivedSources/x86_64 -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/DerivedSources -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-cxzekzegltrzpmfeqsnutcdwcqou/flKinect_Prefix.pch -c /Users/kojikimura/git/flKinect/src/Cocoa/Classes/SocketServer.m -o /Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/SocketServer.o0#
+
+CCompileC build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/cameras.o "/Users/kojikimura/Desktop/Cocoa Application/flKinect/libs/libfreenect/lib/cameras.c" normal x86_64 c com.apple.compilers.gcc.4_2
+s312297429.408152
+e312297429.663938
+r1
+xCompileC
+xbuild/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/cameras.o
+x/Users/kojikimura/Desktop/Cocoa Application/flKinect/libs/libfreenect/lib/cameras.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@91"Compile /Users/kojikimura/Desktop/Cocoa Application/flKinect/libs/libfreenect/lib/cameras.c312297429#312297429#0(0"0(0#0#83"/Users/kojikimura/Desktop/Cocoa Application/flKinect/libs/libfreenect/lib/cameras.c8600375904#1261"    cd "/Users/kojikimura/Desktop/Cocoa Application/flKinect"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/flKinect.build/Release/flKinect.build/flKinect.hmap" "-F/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release" "-I/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release/include" "-I/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/flKinect.build/Release/flKinect.build/DerivedSources/x86_64" "-I/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/flKinect.build/Release/flKinect.build/DerivedSources" -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-anppgkyivrjduqfjlflwrmaudoym/flKinect_Prefix.pch -c "/Users/kojikimura/Desktop/Cocoa Application/flKinect/libs/libfreenect/lib/cameras.c" -o "/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/cameras.o"0#
+
+CCompileC build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/cameras.o /Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/cameras.c normal x86_64 c com.apple.compilers.gcc.4_2
+s312369295.090092
+e312369295.394945
+r1
+xCompileC
+xbuild/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/cameras.o
+x/Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/cameras.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/cameras.c312369295#312369295#0(0"0(0#0#71"/Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/cameras.c8596693216#1149"    cd /Users/kojikimura/git/flKinect/src/Cocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/flKinect.hmap -F/Users/kojikimura/git/flKinect/src/Cocoa/build/Release -I/Users/kojikimura/git/flKinect/src/Cocoa/build/Release/include -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/DerivedSources/x86_64 -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/DerivedSources -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-hflixnsylezjvaajcdsniqrkvbuz/flKinect_Prefix.pch -c /Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/cameras.c -o /Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/cameras.o0#
+
+CCompileC build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/core.o "/Users/kojikimura/Desktop/Cocoa Application/flKinect/libs/libfreenect/lib/core.c" normal x86_64 c com.apple.compilers.gcc.4_2
+s312297429.408963
+e312297429.527396
+r1
+xCompileC
+xbuild/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/core.o
+x/Users/kojikimura/Desktop/Cocoa Application/flKinect/libs/libfreenect/lib/core.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/kojikimura/Desktop/Cocoa Application/flKinect/libs/libfreenect/lib/core.c312297429#312297429#0(0"0(0#0#80"/Users/kojikimura/Desktop/Cocoa Application/flKinect/libs/libfreenect/lib/core.c8612049568#1255"    cd "/Users/kojikimura/Desktop/Cocoa Application/flKinect"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/flKinect.build/Release/flKinect.build/flKinect.hmap" "-F/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release" "-I/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release/include" "-I/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/flKinect.build/Release/flKinect.build/DerivedSources/x86_64" "-I/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/flKinect.build/Release/flKinect.build/DerivedSources" -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-anppgkyivrjduqfjlflwrmaudoym/flKinect_Prefix.pch -c "/Users/kojikimura/Desktop/Cocoa Application/flKinect/libs/libfreenect/lib/core.c" -o "/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/core.o"0#
+
+CCompileC build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/core.o /Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/core.c normal x86_64 c com.apple.compilers.gcc.4_2
+s312369295.261424
+e312369295.343276
+r1
+xCompileC
+xbuild/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/core.o
+x/Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/core.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/core.c312369295#312369295#0(0"0(0#0#68"/Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/core.c8603864288#1143"    cd /Users/kojikimura/git/flKinect/src/Cocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/flKinect.hmap -F/Users/kojikimura/git/flKinect/src/Cocoa/build/Release -I/Users/kojikimura/git/flKinect/src/Cocoa/build/Release/include -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/DerivedSources/x86_64 -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/DerivedSources -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-hflixnsylezjvaajcdsniqrkvbuz/flKinect_Prefix.pch -c /Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/core.c -o /Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/core.o0#
+
+CCompileC build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/main.o "/Users/kojikimura/Desktop/Cocoa Application/flKinect/main.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s312222698.436917
+e312222698.675680
+r1
+xCompileC
+xbuild/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/main.o
+x/Users/kojikimura/Desktop/Cocoa Application/flKinect/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/kojikimura/Desktop/Cocoa Application/flKinect/main.m312222698#312222698#0(0"0(0#0#59"/Users/kojikimura/Desktop/Cocoa Application/flKinect/main.m8607714656#1244"    cd "/Users/kojikimura/Desktop/Cocoa Application/flKinect"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/flKinect.build/Release/flKinect.build/flKinect.hmap" "-F/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release" "-I/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release/include" "-I/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/flKinect.build/Release/flKinect.build/DerivedSources/x86_64" "-I/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/flKinect.build/Release/flKinect.build/DerivedSources" -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-enulhrqnvuqjaacbenqicewjcgut/flKinect_Prefix.pch -c "/Users/kojikimura/Desktop/Cocoa Application/flKinect/main.m" -o "/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/main.o"0#
+
+CCompileC build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/main.o /Users/kojikimura/git/flKinect/src/Cocoa/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s312369628.407899
+e312369628.798066
+r1
+xCompileC
+xbuild/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/main.o
+x/Users/kojikimura/git/flKinect/src/Cocoa/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/kojikimura/git/flKinect/src/Cocoa/main.m312369628#312369628#0(0"0(0#0#47"/Users/kojikimura/git/flKinect/src/Cocoa/main.m8603378112#1132"    cd /Users/kojikimura/git/flKinect/src/Cocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/flKinect.hmap -F/Users/kojikimura/git/flKinect/src/Cocoa/build/Release -I/Users/kojikimura/git/flKinect/src/Cocoa/build/Release/include -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/DerivedSources/x86_64 -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/DerivedSources -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-cxzekzegltrzpmfeqsnutcdwcqou/flKinect_Prefix.pch -c /Users/kojikimura/git/flKinect/src/Cocoa/main.m -o /Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/main.o0#
+
+CCompileC build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/tilt.o "/Users/kojikimura/Desktop/Cocoa Application/flKinect/libs/libfreenect/lib/tilt.c" normal x86_64 c com.apple.compilers.gcc.4_2
+s312297429.527494
+e312297429.615737
+r1
+xCompileC
+xbuild/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/tilt.o
+x/Users/kojikimura/Desktop/Cocoa Application/flKinect/libs/libfreenect/lib/tilt.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/kojikimura/Desktop/Cocoa Application/flKinect/libs/libfreenect/lib/tilt.c312297429#312297429#0(0"0(0#0#80"/Users/kojikimura/Desktop/Cocoa Application/flKinect/libs/libfreenect/lib/tilt.c8625287744#1255"    cd "/Users/kojikimura/Desktop/Cocoa Application/flKinect"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/flKinect.build/Release/flKinect.build/flKinect.hmap" "-F/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release" "-I/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release/include" "-I/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/flKinect.build/Release/flKinect.build/DerivedSources/x86_64" "-I/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/flKinect.build/Release/flKinect.build/DerivedSources" -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-anppgkyivrjduqfjlflwrmaudoym/flKinect_Prefix.pch -c "/Users/kojikimura/Desktop/Cocoa Application/flKinect/libs/libfreenect/lib/tilt.c" -o "/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/tilt.o"0#
+
+CCompileC build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/tilt.o /Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/tilt.c normal x86_64 c com.apple.compilers.gcc.4_2
+s312369295.343367
+e312369295.436424
+r1
+xCompileC
+xbuild/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/tilt.o
+x/Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/tilt.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/tilt.c312369295#312369295#0(0"0(0#0#68"/Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/tilt.c8595541952#1143"    cd /Users/kojikimura/git/flKinect/src/Cocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/flKinect.hmap -F/Users/kojikimura/git/flKinect/src/Cocoa/build/Release -I/Users/kojikimura/git/flKinect/src/Cocoa/build/Release/include -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/DerivedSources/x86_64 -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/DerivedSources -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-hflixnsylezjvaajcdsniqrkvbuz/flKinect_Prefix.pch -c /Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/tilt.c -o /Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/tilt.o0#
+
+CCompileC build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/usb_libusb10.o "/Users/kojikimura/Desktop/Cocoa Application/flKinect/libs/libfreenect/lib/usb_libusb10.c" normal x86_64 c com.apple.compilers.gcc.4_2
+s312297435.763247
+e312297435.870981
+r1
+xCompileC
+xbuild/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/usb_libusb10.o
+x/Users/kojikimura/Desktop/Cocoa Application/flKinect/libs/libfreenect/lib/usb_libusb10.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@96"Compile /Users/kojikimura/Desktop/Cocoa Application/flKinect/libs/libfreenect/lib/usb_libusb10.c312297435#312297435#0(0"0(0#0#88"/Users/kojikimura/Desktop/Cocoa Application/flKinect/libs/libfreenect/lib/usb_libusb10.c8622282112#1271"    cd "/Users/kojikimura/Desktop/Cocoa Application/flKinect"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/flKinect.build/Release/flKinect.build/flKinect.hmap" "-F/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release" "-I/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release/include" "-I/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/flKinect.build/Release/flKinect.build/DerivedSources/x86_64" "-I/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/flKinect.build/Release/flKinect.build/DerivedSources" -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-anppgkyivrjduqfjlflwrmaudoym/flKinect_Prefix.pch -c "/Users/kojikimura/Desktop/Cocoa Application/flKinect/libs/libfreenect/lib/usb_libusb10.c" -o "/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/usb_libusb10.o"0#
+
+CCompileC build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/usb_libusb10.o /Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/usb_libusb10.c normal x86_64 c com.apple.compilers.gcc.4_2
+s312369295.395037
+e312369295.533165
+r1
+xCompileC
+xbuild/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/usb_libusb10.o
+x/Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/usb_libusb10.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/usb_libusb10.c312369295#312369295#0(0"0(0#0#76"/Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/usb_libusb10.c8605882464#1159"    cd /Users/kojikimura/git/flKinect/src/Cocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/flKinect.hmap -F/Users/kojikimura/git/flKinect/src/Cocoa/build/Release -I/Users/kojikimura/git/flKinect/src/Cocoa/build/Release/include -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/DerivedSources/x86_64 -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/DerivedSources -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-hflixnsylezjvaajcdsniqrkvbuz/flKinect_Prefix.pch -c /Users/kojikimura/git/flKinect/src/Cocoa/libs/libfreenect/lib/usb_libusb10.c -o /Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/usb_libusb10.o0#
+
+CCopyStringsFile "/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release/flKinect.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+s312221697.138696
+e312221697.419494
+r1
+xCopyStringsFile
+x/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release/flKinect.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings312221697#312221697#0(0"0(0#0#84"/Users/kojikimura/Desktop/Cocoa Application/flKinect/English.lproj/InfoPlist.strings8626260160#401"    cd "/Users/kojikimura/Desktop/Cocoa Application/flKinect"    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir "/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release/flKinect.app/Contents/Resources/English.lproj"0#
+
+CCopyStringsFile /Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s312369628.352712
+e312369628.407584
+r1
+xCopyStringsFile
+x/Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings312369628#312369628#0(0"0(0#0#72"/Users/kojikimura/git/flKinect/src/Cocoa/English.lproj/InfoPlist.strings8607899776#373"    cd /Users/kojikimura/git/flKinect/src/Cocoa    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app/Contents/Resources/English.lproj0#
+
+CCpResource build/Release/flKinect.app/Contents/Resources/CMakeLists.txt libs/libfreenect/lib/CMakeLists.txt
+s312297169.320468
+e312297169.356897
+r1
+xCpResource
+xbuild/Release/flKinect.app/Contents/Resources/CMakeLists.txt
+xlibs/libfreenect/lib/CMakeLists.txt
+lSLF07#2@40"Copy libs/libfreenect/lib/CMakeLists.txt312297169#312297169#0(0"0(0#0#88"/Users/kojikimura/Desktop/Cocoa Application/flKinect/libs/libfreenect/lib/CMakeLists.txt8620278816#423"    cd "/Users/kojikimura/Desktop/Cocoa Application/flKinect"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/kojikimura/Desktop/Cocoa Application/flKinect/libs/libfreenect/lib/CMakeLists.txt" "/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release/flKinect.app/Contents/Resources"0#
+
+CCpResource build/Release/flKinect.app/Contents/Resources/icon.icns design/icon.icns
+s312221697.227468
+e312221697.252473
+r1
+xCpResource
+xbuild/Release/flKinect.app/Contents/Resources/icon.icns
+xdesign/icon.icns
+lSLF07#2@21"Copy design/icon.icns312221697#312221697#0(0"0(0#0#69"/Users/kojikimura/Desktop/Cocoa Application/flKinect/design/icon.icns8625338240#404"    cd "/Users/kojikimura/Desktop/Cocoa Application/flKinect"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/kojikimura/Desktop/Cocoa Application/flKinect/design/icon.icns" "/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release/flKinect.app/Contents/Resources"0#
+
+CCreateUniversalBinary /Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app/Contents/MacOS/flKinect normal "x86_64 i386 ppc"
+r0
+
+CGenerateDSYMFile "/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release/flKinect.app.dSYM" "/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release/flKinect.app/Contents/MacOS/flKinect"
+s312313457.921023
+e312313458.096219
+r1
+xGenerateDSYMFile
+x/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release/flKinect.app.dSYM
+x/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release/flKinect.app/Contents/MacOS/flKinect
+lSLF07#2@99"GenerateDSYMFile build/Release/flKinect.app.dSYM build/Release/flKinect.app/Contents/MacOS/flKinect312313457#312313458#0(0"0(0#0#103"/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release/flKinect.app/Contents/MacOS/flKinect8624812160#290"    cd "/Users/kojikimura/Desktop/Cocoa Application/flKinect"    /Developer/usr/bin/dsymutil "/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release/flKinect.app/Contents/MacOS/flKinect" -o "/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release/flKinect.app.dSYM"0#
+
+CGenerateDSYMFile /Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app.dSYM /Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app/Contents/MacOS/flKinect
+s312369630.060883
+e312369630.570804
+r1
+xGenerateDSYMFile
+x/Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app.dSYM
+x/Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app/Contents/MacOS/flKinect
+lSLF07#2@99"GenerateDSYMFile build/Release/flKinect.app.dSYM build/Release/flKinect.app/Contents/MacOS/flKinect312369630#312369630#0(0"0(0#0#91"/Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app/Contents/MacOS/flKinect8596061024#248"    cd /Users/kojikimura/git/flKinect/src/Cocoa    /Developer/usr/bin/dsymutil /Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app/Contents/MacOS/flKinect -o /Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app.dSYM0#
+
+CLd "/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release/flKinect.app/Contents/MacOS/flKinect" normal x86_64
+s312313457.753539
+e312313457.920673
+r1
+xLd
+x/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release/flKinect.app/Contents/MacOS/flKinect
+xnormal
+xx86_64
+lSLF07#2@108"Link /Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release/flKinect.app/Contents/MacOS/flKinect312313457#312313457#0(0"0(0#0#0"8625477632#720"    cd "/Users/kojikimura/Desktop/Cocoa Application/flKinect"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.5.sdk "-L/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release" "-L/Users/kojikimura/Desktop/Cocoa Application/flKinect/libs/libusb/lib" "-F/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release" -filelist "/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/flKinect.LinkFileList" -mmacosx-version-min=10.5 -framework Cocoa -lusb-1.0.0 -o "/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release/flKinect.app/Contents/MacOS/flKinect"0#
+
+CLd /Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app/Contents/MacOS/flKinect normal x86_64
+s312369629.776469
+e312369630.060791
+r1
+xLd
+x/Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app/Contents/MacOS/flKinect
+xnormal
+xx86_64
+lSLF07#2@96"Link /Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app/Contents/MacOS/flKinect312369629#312369630#0(0"0(0#0#0"8610671456#636"    cd /Users/kojikimura/git/flKinect/src/Cocoa    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/kojikimura/git/flKinect/src/Cocoa/build/Release -L/Users/kojikimura/git/flKinect/src/Cocoa/libs/libusb/lib -F/Users/kojikimura/git/flKinect/src/Cocoa/build/Release -filelist /Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/flKinect.LinkFileList -mmacosx-version-min=10.5 -framework Cocoa -lusb-1.0.0 -o /Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app/Contents/MacOS/flKinect0#
+
+CLd /Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/i386/flKinect normal i386
+s312369674.737052
+e312369675.161373
+r0
+xLd
+x/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/i386/flKinect
+xnormal
+xi386
+old: warning: in /Users/kojikimura/git/flKinect/src/Cocoa/libs/libusb/lib/libusb-1.0.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+oUndefined symbols:
+o  "_libusb_control_transfer", referenced from:
+o      _fnusb_control in usb_libusb10.o
+o  "_libusb_cancel_transfer", referenced from:
+o      _fnusb_stop_iso in usb_libusb10.o
+o  "_libusb_open", referenced from:
+o      _fnusb_open_subdevices in usb_libusb10.o
+o      _fnusb_open_subdevices in usb_libusb10.o
+o  "_libusb_get_device_descriptor", referenced from:
+o      _freenect_num_devices in core.o
+o      _fnusb_open_subdevices in usb_libusb10.o
+o  "_libusb_init", referenced from:
+o      _fnusb_init in usb_libusb10.o
+o  "_libusb_handle_events", referenced from:
+o      _fnusb_process_events in usb_libusb10.o
+o      _fnusb_stop_iso in usb_libusb10.o
+o  "_libusb_free_device_list", referenced from:
+o      _freenect_num_devices in core.o
+o      _fnusb_open_subdevices in usb_libusb10.o
+o  "_libusb_claim_interface", referenced from:
+o      _fnusb_open_subdevices in usb_libusb10.o
+o      _fnusb_open_subdevices in usb_libusb10.o
+o  "_libusb_exit", referenced from:
+o      _fnusb_shutdown in usb_libusb10.o
+o  "_libusb_alloc_transfer", referenced from:
+o      _fnusb_start_iso in usb_libusb10.o
+o  "_libusb_get_device_list", referenced from:
+o      _freenect_num_devices in core.o
+o      _fnusb_open_subdevices in usb_libusb10.o
+o  "_libusb_submit_transfer", referenced from:
+o      _fnusb_start_iso in usb_libusb10.o
+o      _iso_callback in usb_libusb10.o
+old: symbol(s) not found
+ocollect2: ld returned 1 exit status
+lSLF07#2@118"Link /Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/i386/flKinect312369674#312369675#0(1593"ld: warning: in /Users/kojikimura/git/flKinect/src/Cocoa/libs/libusb/lib/libusb-1.0.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)Undefined symbols:  "_libusb_control_transfer", referenced from:      _fnusb_control in usb_libusb10.o  "_libusb_cancel_transfer", referenced from:      _fnusb_stop_iso in usb_libusb10.o  "_libusb_open", referenced from:      _fnusb_open_subdevices in usb_libusb10.o      _fnusb_open_subdevices in usb_libusb10.o  "_libusb_get_device_descriptor", referenced from:      _freenect_num_devices in core.o      _fnusb_open_subdevices in usb_libusb10.o  "_libusb_init", referenced from:      _fnusb_init in usb_libusb10.o  "_libusb_handle_events", referenced from:      _fnusb_process_events in usb_libusb10.o      _fnusb_stop_iso in usb_libusb10.o  "_libusb_free_device_list", referenced from:      _freenect_num_devices in core.o      _fnusb_open_subdevices in usb_libusb10.o  "_libusb_claim_interface", referenced from:      _fnusb_open_subdevices in usb_libusb10.o      _fnusb_open_subdevices in usb_libusb10.o  "_libusb_exit", referenced from:      _fnusb_shutdown in usb_libusb10.o  "_libusb_alloc_transfer", referenced from:      _fnusb_start_iso in usb_libusb10.o  "_libusb_get_device_list", referenced from:      _freenect_num_devices in core.o      _fnusb_open_subdevices in usb_libusb10.o  "_libusb_submit_transfer", referenced from:      _fnusb_start_iso in usb_libusb10.o      _iso_callback in usb_libusb10.old: symbol(s) not foundcollect2: ld returned 1 exit status34(22@172"In /Users/kojikimura/git/flKinect/src/Cocoa/libs/libusb/lib/libusb-1.0.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)312369675#0#186#0(6@0"312369675#0#0#0#0#0"0(4@44""_libusb_control_transfer", referenced from:312369675#205#47#0(6@0"312369675#0#0#0#0#0"0(13@32"_fnusb_control in usb_libusb10.o312369675#252#39#0(6@0"312369675#0#0#0#0#0"0(4@43""_libusb_cancel_transfer", referenced from:312369675#291#46#0(6@0"312369675#0#0#0#0#0"0(13@33"_fnusb_stop_iso in usb_libusb10.o312369675#337#40#0(6@0"312369675#0#0#0#0#0"0(4@32""_libusb_open", referenced from:312369675#377#35#0(6@0"312369675#0#0#0#0#0"0(13@40"_fnusb_open_subdevices in usb_libusb10.o312369675#412#47#0(6@0"312369675#0#0#0#0#0"0(13@40"_fnusb_open_subdevices in usb_libusb10.o312369675#459#47#0(6@0"312369675#0#0#0#0#0"0(4@49""_libusb_get_device_descriptor", referenced from:312369675#506#52#0(6@0"312369675#0#0#0#0#0"0(13@31"_freenect_num_devices in core.o312369675#558#38#0(6@0"312369675#0#0#0#0#0"0(13@40"_fnusb_open_subdevices in usb_libusb10.o312369675#596#47#0(6@0"312369675#0#0#0#0#0"0(4@32""_libusb_init", referenced from:312369675#643#35#0(6@0"312369675#0#0#0#0#0"0(13@29"_fnusb_init in usb_libusb10.o312369675#678#36#0(6@0"312369675#0#0#0#0#0"0(4@41""_libusb_handle_events", referenced from:312369675#714#44#0(6@0"312369675#0#0#0#0#0"0(13@39"_fnusb_process_events in usb_libusb10.o312369675#758#46#0(6@0"312369675#0#0#0#0#0"0(13@33"_fnusb_stop_iso in usb_libusb10.o312369675#804#40#0(6@0"312369675#0#0#0#0#0"0(4@44""_libusb_free_device_list", referenced from:312369675#844#47#0(6@0"312369675#0#0#0#0#0"0(13@31"_freenect_num_devices in core.o312369675#891#38#0(6@0"312369675#0#0#0#0#0"0(13@40"_fnusb_open_subdevices in usb_libusb10.o312369675#929#47#0(6@0"312369675#0#0#0#0#0"0(4@43""_libusb_claim_interface", referenced from:312369675#976#46#0(6@0"312369675#0#0#0#0#0"0(13@40"_fnusb_open_subdevices in usb_libusb10.o312369675#1022#47#0(6@0"312369675#0#0#0#0#0"0(13@40"_fnusb_open_subdevices in usb_libusb10.o312369675#1069#47#0(6@0"312369675#0#0#0#0#0"0(4@32""_libusb_exit", referenced from:312369675#1116#35#0(6@0"312369675#0#0#0#0#0"0(13@33"_fnusb_shutdown in usb_libusb10.o312369675#1151#40#0(6@0"312369675#0#0#0#0#0"0(4@42""_libusb_alloc_transfer", referenced from:312369675#1191#45#0(6@0"312369675#0#0#0#0#0"0(13@34"_fnusb_start_iso in usb_libusb10.o312369675#1236#41#0(6@0"312369675#0#0#0#0#0"0(4@43""_libusb_get_device_list", referenced from:312369675#1277#46#0(6@0"312369675#0#0#0#0#0"0(13@31"_freenect_num_devices in core.o312369675#1323#38#0(6@0"312369675#0#0#0#0#0"0(13@40"_fnusb_open_subdevices in usb_libusb10.o312369675#1361#47#0(6@0"312369675#0#0#0#0#0"0(4@43""_libusb_submit_transfer", referenced from:312369675#1408#46#0(6@0"312369675#0#0#0#0#0"0(13@34"_fnusb_start_iso in usb_libusb10.o312369675#1454#41#0(6@0"312369675#0#0#0#0#0"0(13@31"_iso_callback in usb_libusb10.o312369675#1495#38#0(6@0"312369675#0#0#0#0#0"0(13@19"Symbol(s) not found312369675#1533#24#0(6@0"312369675#0#0#0#0#0"0(13@35"Collect2: ld returned 1 exit status312369675#1557#36#0(6@0"312369675#0#0#0#0#0"0(0#0#0"8614469568#654"    cd /Users/kojikimura/git/flKinect/src/Cocoa    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/kojikimura/git/flKinect/src/Cocoa/build/Release -L/Users/kojikimura/git/flKinect/src/Cocoa/libs/libusb/lib -F/Users/kojikimura/git/flKinect/src/Cocoa/build/Release -filelist /Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/i386/flKinect.LinkFileList -mmacosx-version-min=10.5 -framework Cocoa -lusb-1.0.0 -o /Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/i386/flKinect1#
+
+CLd /Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/ppc/flKinect normal ppc
+s312369675.651126
+e312369675.719555
+r0
+xLd
+x/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/ppc/flKinect
+xnormal
+xppc
+old: warning: in /Users/kojikimura/git/flKinect/src/Cocoa/libs/libusb/lib/libusb-1.0.0.dylib, file was built for unsupported file format which is not the architecture being linked (ppc)
+oUndefined symbols:
+o  "_libusb_control_transfer", referenced from:
+o      _fnusb_control in usb_libusb10.o
+o  "_libusb_cancel_transfer", referenced from:
+o      _fnusb_stop_iso in usb_libusb10.o
+o  "_libusb_open", referenced from:
+o      _fnusb_open_subdevices in usb_libusb10.o
+o      _fnusb_open_subdevices in usb_libusb10.o
+o  "_libusb_get_device_descriptor", referenced from:
+o      _freenect_num_devices in core.o
+o      _fnusb_open_subdevices in usb_libusb10.o
+o  "_libusb_init", referenced from:
+o      _fnusb_init in usb_libusb10.o
+o  "_libusb_handle_events", referenced from:
+o      _fnusb_process_events in usb_libusb10.o
+o      _fnusb_stop_iso in usb_libusb10.o
+o  "_libusb_free_device_list", referenced from:
+o      _freenect_num_devices in core.o
+o      _fnusb_open_subdevices in usb_libusb10.o
+o  "_libusb_claim_interface", referenced from:
+o      _fnusb_open_subdevices in usb_libusb10.o
+o      _fnusb_open_subdevices in usb_libusb10.o
+o  "_libusb_exit", referenced from:
+o      _fnusb_shutdown in usb_libusb10.o
+o  "_libusb_alloc_transfer", referenced from:
+o      _fnusb_start_iso in usb_libusb10.o
+o  "_libusb_get_device_list", referenced from:
+o      _freenect_num_devices in core.o
+o      _fnusb_open_subdevices in usb_libusb10.o
+o  "_libusb_submit_transfer", referenced from:
+o      _fnusb_start_iso in usb_libusb10.o
+o      _iso_callback in usb_libusb10.o
+old: symbol(s) not found
+ocollect2: ld returned 1 exit status
+lSLF07#2@117"Link /Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/ppc/flKinect312369675#312369675#0(1592"ld: warning: in /Users/kojikimura/git/flKinect/src/Cocoa/libs/libusb/lib/libusb-1.0.0.dylib, file was built for unsupported file format which is not the architecture being linked (ppc)Undefined symbols:  "_libusb_control_transfer", referenced from:      _fnusb_control in usb_libusb10.o  "_libusb_cancel_transfer", referenced from:      _fnusb_stop_iso in usb_libusb10.o  "_libusb_open", referenced from:      _fnusb_open_subdevices in usb_libusb10.o      _fnusb_open_subdevices in usb_libusb10.o  "_libusb_get_device_descriptor", referenced from:      _freenect_num_devices in core.o      _fnusb_open_subdevices in usb_libusb10.o  "_libusb_init", referenced from:      _fnusb_init in usb_libusb10.o  "_libusb_handle_events", referenced from:      _fnusb_process_events in usb_libusb10.o      _fnusb_stop_iso in usb_libusb10.o  "_libusb_free_device_list", referenced from:      _freenect_num_devices in core.o      _fnusb_open_subdevices in usb_libusb10.o  "_libusb_claim_interface", referenced from:      _fnusb_open_subdevices in usb_libusb10.o      _fnusb_open_subdevices in usb_libusb10.o  "_libusb_exit", referenced from:      _fnusb_shutdown in usb_libusb10.o  "_libusb_alloc_transfer", referenced from:      _fnusb_start_iso in usb_libusb10.o  "_libusb_get_device_list", referenced from:      _freenect_num_devices in core.o      _fnusb_open_subdevices in usb_libusb10.o  "_libusb_submit_transfer", referenced from:      _fnusb_start_iso in usb_libusb10.o      _iso_callback in usb_libusb10.old: symbol(s) not foundcollect2: ld returned 1 exit status34(22@171"In /Users/kojikimura/git/flKinect/src/Cocoa/libs/libusb/lib/libusb-1.0.0.dylib, file was built for unsupported file format which is not the architecture being linked (ppc)312369675#0#185#0(6@0"312369675#0#0#0#0#0"0(4@44""_libusb_control_transfer", referenced from:312369675#204#47#0(6@0"312369675#0#0#0#0#0"0(13@32"_fnusb_control in usb_libusb10.o312369675#251#39#0(6@0"312369675#0#0#0#0#0"0(4@43""_libusb_cancel_transfer", referenced from:312369675#290#46#0(6@0"312369675#0#0#0#0#0"0(13@33"_fnusb_stop_iso in usb_libusb10.o312369675#336#40#0(6@0"312369675#0#0#0#0#0"0(4@32""_libusb_open", referenced from:312369675#376#35#0(6@0"312369675#0#0#0#0#0"0(13@40"_fnusb_open_subdevices in usb_libusb10.o312369675#411#47#0(6@0"312369675#0#0#0#0#0"0(13@40"_fnusb_open_subdevices in usb_libusb10.o312369675#458#47#0(6@0"312369675#0#0#0#0#0"0(4@49""_libusb_get_device_descriptor", referenced from:312369675#505#52#0(6@0"312369675#0#0#0#0#0"0(13@31"_freenect_num_devices in core.o312369675#557#38#0(6@0"312369675#0#0#0#0#0"0(13@40"_fnusb_open_subdevices in usb_libusb10.o312369675#595#47#0(6@0"312369675#0#0#0#0#0"0(4@32""_libusb_init", referenced from:312369675#642#35#0(6@0"312369675#0#0#0#0#0"0(13@29"_fnusb_init in usb_libusb10.o312369675#677#36#0(6@0"312369675#0#0#0#0#0"0(4@41""_libusb_handle_events", referenced from:312369675#713#44#0(6@0"312369675#0#0#0#0#0"0(13@39"_fnusb_process_events in usb_libusb10.o312369675#757#46#0(6@0"312369675#0#0#0#0#0"0(13@33"_fnusb_stop_iso in usb_libusb10.o312369675#803#40#0(6@0"312369675#0#0#0#0#0"0(4@44""_libusb_free_device_list", referenced from:312369675#843#47#0(6@0"312369675#0#0#0#0#0"0(13@31"_freenect_num_devices in core.o312369675#890#38#0(6@0"312369675#0#0#0#0#0"0(13@40"_fnusb_open_subdevices in usb_libusb10.o312369675#928#47#0(6@0"312369675#0#0#0#0#0"0(4@43""_libusb_claim_interface", referenced from:312369675#975#46#0(6@0"312369675#0#0#0#0#0"0(13@40"_fnusb_open_subdevices in usb_libusb10.o312369675#1021#47#0(6@0"312369675#0#0#0#0#0"0(13@40"_fnusb_open_subdevices in usb_libusb10.o312369675#1068#47#0(6@0"312369675#0#0#0#0#0"0(4@32""_libusb_exit", referenced from:312369675#1115#35#0(6@0"312369675#0#0#0#0#0"0(13@33"_fnusb_shutdown in usb_libusb10.o312369675#1150#40#0(6@0"312369675#0#0#0#0#0"0(4@42""_libusb_alloc_transfer", referenced from:312369675#1190#45#0(6@0"312369675#0#0#0#0#0"0(13@34"_fnusb_start_iso in usb_libusb10.o312369675#1235#41#0(6@0"312369675#0#0#0#0#0"0(4@43""_libusb_get_device_list", referenced from:312369675#1276#46#0(6@0"312369675#0#0#0#0#0"0(13@31"_freenect_num_devices in core.o312369675#1322#38#0(6@0"312369675#0#0#0#0#0"0(13@40"_fnusb_open_subdevices in usb_libusb10.o312369675#1360#47#0(6@0"312369675#0#0#0#0#0"0(4@43""_libusb_submit_transfer", referenced from:312369675#1407#46#0(6@0"312369675#0#0#0#0#0"0(13@34"_fnusb_start_iso in usb_libusb10.o312369675#1453#41#0(6@0"312369675#0#0#0#0#0"0(13@31"_iso_callback in usb_libusb10.o312369675#1494#38#0(6@0"312369675#0#0#0#0#0"0(13@19"Symbol(s) not found312369675#1532#24#0(6@0"312369675#0#0#0#0#0"0(13@35"Collect2: ld returned 1 exit status312369675#1556#36#0(6@0"312369675#0#0#0#0#0"0(0#0#0"8612580416#651"    cd /Users/kojikimura/git/flKinect/src/Cocoa    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch ppc -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/kojikimura/git/flKinect/src/Cocoa/build/Release -L/Users/kojikimura/git/flKinect/src/Cocoa/libs/libusb/lib -F/Users/kojikimura/git/flKinect/src/Cocoa/build/Release -filelist /Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/ppc/flKinect.LinkFileList -mmacosx-version-min=10.5 -framework Cocoa -lusb-1.0.0 -o /Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/ppc/flKinect1#
+
+CLd /Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/flKinect normal x86_64
+s312369673.691601
+e312369673.905834
+r1
+xLd
+x/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/flKinect
+xnormal
+xx86_64
+lSLF07#2@120"Link /Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/flKinect312369673#312369673#0(0"0(0#0#0"8613419616#660"    cd /Users/kojikimura/git/flKinect/src/Cocoa    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/kojikimura/git/flKinect/src/Cocoa/build/Release -L/Users/kojikimura/git/flKinect/src/Cocoa/libs/libusb/lib -F/Users/kojikimura/git/flKinect/src/Cocoa/build/Release -filelist /Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/flKinect.LinkFileList -mmacosx-version-min=10.5 -framework Cocoa -lusb-1.0.0 -o /Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/flKinect0#
+
+CProcessInfoPlistFile "/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release/flKinect.app/Contents/Info.plist" Info.plist
+s312221697.134292
+e312221697.137921
+r1
+xProcessInfoPlistFile
+x/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release/flKinect.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist312221697#312221697#0(0"0(0#0#63"/Users/kojikimura/Desktop/Cocoa Application/flKinect/Info.plist8627846496#356"    cd "/Users/kojikimura/Desktop/Cocoa Application/flKinect"    builtin-infoPlistUtility Info.plist -genpkginfo "/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release/flKinect.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release/flKinect.app/Contents/Info.plist"0#
+
+CProcessInfoPlistFile /Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app/Contents/Info.plist Info.plist
+s312369628.304471
+e312369628.352577
+r1
+xProcessInfoPlistFile
+x/Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist312369628#312369628#0(0"0(0#0#51"/Users/kojikimura/git/flKinect/src/Cocoa/Info.plist8608503264#314"    cd /Users/kojikimura/git/flKinect/src/Cocoa    builtin-infoPlistUtility Info.plist -genpkginfo /Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app/Contents/Info.plist0#
+
+CProcessPCH /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-aapuqrmgdqzsmfefbypqkubnbifs/flKinect_Prefix.pch.gch flKinect_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s312222333.438431
+e312222336.502495
+r1
+xProcessPCH
+x/var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-aapuqrmgdqzsmfefbypqkubnbifs/flKinect_Prefix.pch.gch
+xflKinect_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile flKinect_Prefix.pch312222333#312222336#0(0"0(0#0#72"/Users/kojikimura/Desktop/Cocoa Application/flKinect/flKinect_Prefix.pch8625244480#1146"    cd "/Users/kojikimura/Desktop/Cocoa Application/flKinect"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fobjc-gc-only -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/flKinect.build/Release/flKinect.build/flKinect.hmap" "-F/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release" "-I/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release/include" "-I/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/flKinect.build/Release/flKinect.build/DerivedSources/x86_64" "-I/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/flKinect.build/Release/flKinect.build/DerivedSources" -c "/Users/kojikimura/Desktop/Cocoa Application/flKinect/flKinect_Prefix.pch" -o /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-aapuqrmgdqzsmfefbypqkubnbifs/flKinect_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-abisyekdmualzwbkghtcagpwgaok/flKinect_Prefix.pch.gch flKinect_Prefix.pch normal i386 c com.apple.compilers.gcc.4_2
+s312369667.408803
+e312369667.513089
+r1
+xProcessPCH
+x/var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-abisyekdmualzwbkghtcagpwgaok/flKinect_Prefix.pch.gch
+xflKinect_Prefix.pch
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile flKinect_Prefix.pch312369667#312369667#0(0"0(0#0#60"/Users/kojikimura/git/flKinect/src/Cocoa/flKinect_Prefix.pch8613398304#1019"    cd /Users/kojikimura/git/flKinect/src/Cocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/flKinect.hmap -F/Users/kojikimura/git/flKinect/src/Cocoa/build/Release -I/Users/kojikimura/git/flKinect/src/Cocoa/build/Release/include -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/DerivedSources/i386 -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/DerivedSources -c /Users/kojikimura/git/flKinect/src/Cocoa/flKinect_Prefix.pch -o /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-abisyekdmualzwbkghtcagpwgaok/flKinect_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-anppgkyivrjduqfjlflwrmaudoym/flKinect_Prefix.pch.gch flKinect_Prefix.pch normal x86_64 c com.apple.compilers.gcc.4_2
+s312221697.420491
+e312221697.615837
+r1
+xProcessPCH
+x/var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-anppgkyivrjduqfjlflwrmaudoym/flKinect_Prefix.pch.gch
+xflKinect_Prefix.pch
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile flKinect_Prefix.pch312221697#312221697#0(0"0(0#0#72"/Users/kojikimura/Desktop/Cocoa Application/flKinect/flKinect_Prefix.pch8628529568#1121"    cd "/Users/kojikimura/Desktop/Cocoa Application/flKinect"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c-header -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/flKinect.build/Release/flKinect.build/flKinect.hmap" "-F/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release" "-I/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release/include" "-I/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/flKinect.build/Release/flKinect.build/DerivedSources/x86_64" "-I/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/flKinect.build/Release/flKinect.build/DerivedSources" -c "/Users/kojikimura/Desktop/Cocoa Application/flKinect/flKinect_Prefix.pch" -o /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-anppgkyivrjduqfjlflwrmaudoym/flKinect_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-ccgoogozuxhnpwdziprufhjstoxn/flKinect_Prefix.pch.gch flKinect_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s312222557.266579
+e312222561.628663
+r1
+xProcessPCH
+x/var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-ccgoogozuxhnpwdziprufhjstoxn/flKinect_Prefix.pch.gch
+xflKinect_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile flKinect_Prefix.pch312222557#312222561#0(0"0(0#0#72"/Users/kojikimura/Desktop/Cocoa Application/flKinect/flKinect_Prefix.pch8627654272#1141"    cd "/Users/kojikimura/Desktop/Cocoa Application/flKinect"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fobjc-gc -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/flKinect.build/Release/flKinect.build/flKinect.hmap" "-F/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release" "-I/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release/include" "-I/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/flKinect.build/Release/flKinect.build/DerivedSources/x86_64" "-I/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/flKinect.build/Release/flKinect.build/DerivedSources" -c "/Users/kojikimura/Desktop/Cocoa Application/flKinect/flKinect_Prefix.pch" -o /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-ccgoogozuxhnpwdziprufhjstoxn/flKinect_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-cxzekzegltrzpmfeqsnutcdwcqou/flKinect_Prefix.pch.gch flKinect_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s312369291.347928
+e312369295.088887
+r1
+xProcessPCH
+x/var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-cxzekzegltrzpmfeqsnutcdwcqou/flKinect_Prefix.pch.gch
+xflKinect_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile flKinect_Prefix.pch312369291#312369295#0(0"0(0#0#60"/Users/kojikimura/git/flKinect/src/Cocoa/flKinect_Prefix.pch8596889376#1033"    cd /Users/kojikimura/git/flKinect/src/Cocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/flKinect.hmap -F/Users/kojikimura/git/flKinect/src/Cocoa/build/Release -I/Users/kojikimura/git/flKinect/src/Cocoa/build/Release/include -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/DerivedSources/x86_64 -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/DerivedSources -c /Users/kojikimura/git/flKinect/src/Cocoa/flKinect_Prefix.pch -o /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-cxzekzegltrzpmfeqsnutcdwcqou/flKinect_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-effboytimjllylagbxxmshobrodo/flKinect_Prefix.pch.gch flKinect_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s312369667.408099
+e312369673.690957
+r1
+xProcessPCH
+x/var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-effboytimjllylagbxxmshobrodo/flKinect_Prefix.pch.gch
+xflKinect_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile flKinect_Prefix.pch312369667#312369673#0(0"0(0#0#60"/Users/kojikimura/git/flKinect/src/Cocoa/flKinect_Prefix.pch8612083584#1029"    cd /Users/kojikimura/git/flKinect/src/Cocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/flKinect.hmap -F/Users/kojikimura/git/flKinect/src/Cocoa/build/Release -I/Users/kojikimura/git/flKinect/src/Cocoa/build/Release/include -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/DerivedSources/i386 -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/DerivedSources -c /Users/kojikimura/git/flKinect/src/Cocoa/flKinect_Prefix.pch -o /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-effboytimjllylagbxxmshobrodo/flKinect_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-enulhrqnvuqjaacbenqicewjcgut/flKinect_Prefix.pch.gch flKinect_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s312221697.419607
+e312221702.381433
+r1
+xProcessPCH
+x/var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-enulhrqnvuqjaacbenqicewjcgut/flKinect_Prefix.pch.gch
+xflKinect_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile flKinect_Prefix.pch312221697#312221702#0(0"0(0#0#72"/Users/kojikimura/Desktop/Cocoa Application/flKinect/flKinect_Prefix.pch8628971136#1131"    cd "/Users/kojikimura/Desktop/Cocoa Application/flKinect"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/flKinect.build/Release/flKinect.build/flKinect.hmap" "-F/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release" "-I/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release/include" "-I/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/flKinect.build/Release/flKinect.build/DerivedSources/x86_64" "-I/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/flKinect.build/Release/flKinect.build/DerivedSources" -c "/Users/kojikimura/Desktop/Cocoa Application/flKinect/flKinect_Prefix.pch" -o /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-enulhrqnvuqjaacbenqicewjcgut/flKinect_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-evbxmskucmldqvfkbdewtjaofblh/flKinect_Prefix.pch.gch flKinect_Prefix.pch normal ppc c com.apple.compilers.gcc.4_2
+s312369673.238371
+e312369673.543552
+r1
+xProcessPCH
+x/var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-evbxmskucmldqvfkbdewtjaofblh/flKinect_Prefix.pch.gch
+xflKinect_Prefix.pch
+xnormal
+xppc
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile flKinect_Prefix.pch312369673#312369673#0(0"0(0#0#60"/Users/kojikimura/git/flKinect/src/Cocoa/flKinect_Prefix.pch8614219136#1027"    cd /Users/kojikimura/git/flKinect/src/Cocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c-header -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/flKinect.hmap -F/Users/kojikimura/git/flKinect/src/Cocoa/build/Release -I/Users/kojikimura/git/flKinect/src/Cocoa/build/Release/include -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/DerivedSources/ppc -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/DerivedSources -c /Users/kojikimura/git/flKinect/src/Cocoa/flKinect_Prefix.pch -o /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-evbxmskucmldqvfkbdewtjaofblh/flKinect_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-ghfyzpwtupokgycabknecgjfypcc/flKinect_Prefix.pch.gch flKinect_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
+s312369667.513196
+e312369673.238195
+r1
+xProcessPCH
+x/var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-ghfyzpwtupokgycabknecgjfypcc/flKinect_Prefix.pch.gch
+xflKinect_Prefix.pch
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile flKinect_Prefix.pch312369667#312369673#0(0"0(0#0#60"/Users/kojikimura/git/flKinect/src/Cocoa/flKinect_Prefix.pch8614851040#1037"    cd /Users/kojikimura/git/flKinect/src/Cocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/flKinect.hmap -F/Users/kojikimura/git/flKinect/src/Cocoa/build/Release -I/Users/kojikimura/git/flKinect/src/Cocoa/build/Release/include -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/DerivedSources/ppc -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/DerivedSources -c /Users/kojikimura/git/flKinect/src/Cocoa/flKinect_Prefix.pch -o /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-ghfyzpwtupokgycabknecgjfypcc/flKinect_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-hflixnsylezjvaajcdsniqrkvbuz/flKinect_Prefix.pch.gch flKinect_Prefix.pch normal x86_64 c com.apple.compilers.gcc.4_2
+s312369291.348654
+e312369291.531426
+r1
+xProcessPCH
+x/var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-hflixnsylezjvaajcdsniqrkvbuz/flKinect_Prefix.pch.gch
+xflKinect_Prefix.pch
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile flKinect_Prefix.pch312369291#312369291#0(0"0(0#0#60"/Users/kojikimura/git/flKinect/src/Cocoa/flKinect_Prefix.pch8606413280#1023"    cd /Users/kojikimura/git/flKinect/src/Cocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c-header -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/flKinect.hmap -F/Users/kojikimura/git/flKinect/src/Cocoa/build/Release -I/Users/kojikimura/git/flKinect/src/Cocoa/build/Release/include -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/DerivedSources/x86_64 -I/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/DerivedSources -c /Users/kojikimura/git/flKinect/src/Cocoa/flKinect_Prefix.pch -o /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-hflixnsylezjvaajcdsniqrkvbuz/flKinect_Prefix.pch.gch0#
+
+CStripNIB "/Users/kojikimura/Desktop/Cocoa Application/flKinect/English.lproj/MainMenu.nib"
+s312229506.210393
+e312229506.311468
+r1
+xStripNIB
+x/Users/kojikimura/Desktop/Cocoa Application/flKinect/English.lproj/MainMenu.nib
+lSLF07#2@35"StripNIB English.lproj/MainMenu.nib312229506#312229506#0(0"0(0#0#79"/Users/kojikimura/Desktop/Cocoa Application/flKinect/English.lproj/MainMenu.nib8628301536#346"    cd "/Users/kojikimura/Desktop/Cocoa Application/flKinect"    /Developer/usr/bin/ibtool --strip "/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release/flKinect.app/Contents/Resources/English.lproj/MainMenu.nib" --output-format human-readable-text "/Users/kojikimura/Desktop/Cocoa Application/flKinect/English.lproj/MainMenu.nib"0#
+
+CStripNIB /Users/kojikimura/git/flKinect/src/Cocoa/English.lproj/MainMenu.nib
+r0
+
+CTouch "/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release/flKinect.app"
+s312313458.096500
+e312313458.101755
+r1
+xTouch
+x/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release/flKinect.app
+lSLF07#2@85"Touch /Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release/flKinect.app312313458#312313458#0(0"0(0#0#0"8627672480#166"    cd "/Users/kojikimura/Desktop/Cocoa Application/flKinect"    /usr/bin/touch -c "/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release/flKinect.app"0#
+
+CTouch /Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app
+s312369630.570929
+e312369630.573699
+r1
+xTouch
+x/Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app
+lSLF07#2@73"Touch /Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app312369630#312369630#0(0"0(0#0#0"8603678400#138"    cd /Users/kojikimura/git/flKinect/src/Cocoa    /usr/bin/touch -c /Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app0#
+

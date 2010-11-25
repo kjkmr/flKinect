@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'flKinect' target in the 'flKinect' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
