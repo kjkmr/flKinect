@@ -254,7 +254,7 @@
 						<dict>
 							<key>PBXSmartGroupTreeModuleColumnWidthsKey</key>
 							<array>
-								<real>186</real>
+								<real>287</real>
 							</array>
 							<key>PBXSmartGroupTreeModuleColumnsKey_v4</key>
 							<array>
@@ -267,23 +267,30 @@
 							<array>
 								<string>29B97314FDCFA39411CA2CEA</string>
 								<string>E9165B94129B973000BE7F96</string>
+								<string>E9165B95129B973000BE7F96</string>
 								<string>E9165BA1129B973000BE7F96</string>
 								<string>E9165BA4129B973000BE7F96</string>
 								<string>29B97315FDCFA39411CA2CEA</string>
 								<string>29B97317FDCFA39411CA2CEA</string>
 								<string>29B97323FDCFA39411CA2CEA</string>
 								<string>1C37FBAC04509CD000000102</string>
+								<string>E904C19C129EBFB800D98879</string>
+								<string>E904C19D129EBFB800D98879</string>
+								<string>E904C19E129EBFB800D98879</string>
+								<string>E904C19F129EBFB800D98879</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>21</integer>
-									<integer>20</integer>
+									<integer>38</integer>
+									<integer>37</integer>
+									<integer>23</integer>
+									<integer>22</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {186, 1060}}</string>
+							<string>{{0, 0}, {287, 1060}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -295,11 +302,11 @@
 					<key>GeometryConfiguration</key>
 					<dict>
 						<key>Frame</key>
-						<string>{{0, 0}, {203, 1078}}</string>
+						<string>{{0, 0}, {304, 1078}}</string>
 						<key>GroupTreeTableConfiguration</key>
 						<array>
 							<string>MainColumn</string>
-							<real>186</real>
+							<real>287</real>
 						</array>
 						<key>RubberWindowFrame</key>
 						<string>3 59 1504 1119 0 0 1920 1178 </string>
@@ -307,7 +314,7 @@
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
 					<key>Proportion</key>
-					<string>203pt</string>
+					<string>304pt</string>
 				</dict>
 				<dict>
 					<key>Dock</key>
@@ -330,7 +337,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>E904C183129EBBB600D98879</string>
+										<string>E904C1B7129EC7E400D98879</string>
 										<key>history</key>
 										<array>
 											<string>E9165C01129BA10300BE7F96</string>
@@ -361,7 +368,7 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1296, 860}}</string>
+								<string>{{0, 0}, {1195, 860}}</string>
 								<key>RubberWindowFrame</key>
 								<string>3 59 1504 1119 0 0 1920 1178 </string>
 							</dict>
@@ -381,7 +388,7 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 865}, {1296, 213}}</string>
+								<string>{{0, 865}, {1195, 213}}</string>
 								<key>RubberWindowFrame</key>
 								<string>3 59 1504 1119 0 0 1920 1178 </string>
 							</dict>
@@ -392,7 +399,7 @@
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>1296pt</string>
+					<string>1195pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -549,7 +556,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>E904C184129EBBB600D98879</string>
 		<string>E904C17B129EBBA000D98879</string>
 		<string>E904C17C129EBBA000D98879</string>
 		<string>1C78EAAD065D492600B07095</string>

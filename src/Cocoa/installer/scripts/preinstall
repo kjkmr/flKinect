@@ -1,0 +1,6 @@
+#!/bin/sh
+if [ ! -d "/usr/local/lib" ]; then
+    mkdir "/usr/local/lib"
+    chmod 0777 "/usr/local/lib"
+fi
+

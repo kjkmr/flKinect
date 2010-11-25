@@ -1,12 +1,11 @@
 TflKinect
 v7
 r0
-t312392629.767498
+t312395751.798507
 cCheck dependencies
 cProcessInfoPlistFile /Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app/Contents/Info.plist Info.plist
 cStripNIB /Users/kojikimura/git/flKinect/src/Cocoa/English.lproj/MainMenu.nib
 cCopyStringsFile /Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
-cCpResource build/Release/flKinect.app/Contents/Resources/CMakeLists.txt libs/libfreenect/lib/CMakeLists.txt
 cCpResource build/Release/flKinect.app/Contents/Resources/icon.icns design/icon.icns
 cProcessPCH /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-cxzekzegltrzpmfeqsnutcdwcqou/flKinect_Prefix.pch.gch flKinect_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
 cProcessPCH /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flKinect_Prefix-hflixnsylezjvaajcdsniqrkvbuz/flKinect_Prefix.pch.gch flKinect_Prefix.pch normal x86_64 c com.apple.compilers.gcc.4_2
@@ -403,8 +402,8 @@ s5264
 i"SocketServer.h"
 
 N/Users/kojikimura/git/flKinect/src/Cocoa/English.lproj/InfoPlist.strings
-c000000004CEE834900000000000000BA
-t1290699593
+c000000004CEE882E00000000000000BA
+t1290700846
 s186
 
 N/Users/kojikimura/git/flKinect/src/Cocoa/English.lproj/MainMenu.nib
@@ -427,11 +426,11 @@ i"Kinect.h"
 i"libfreenect.h"
 
 N/Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app
-t1290699829
+t1290702878
 s102
 
 N/Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app.dSYM
-t1290699829
+t1290702878
 s102
 
 N/Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app/Contents/Info.plist
@@ -439,7 +438,7 @@ t1290676828
 s825
 
 N/Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app/Contents/MacOS/flKinect
-t1290699829
+t1290702878
 s47584
 
 N/Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app/Contents/PkgInfo
@@ -451,7 +450,7 @@ t1290699668
 s1435
 
 N/Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app/Contents/Resources/English.lproj/InfoPlist.strings
-t1290699593
+t1290700847
 s186
 
 N/Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app/Contents/Resources/English.lproj/MainMenu.nib
@@ -461,6 +460,10 @@ s16338
 N/Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app/Contents/Resources/icon.icns
 t1290528897
 s25836
+
+N/Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app/Contents/Resources/libusb-1.0.0.dylib
+t1290700847
+s61624
 
 N/Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/i386/AppController.o
 t1290699799
@@ -677,9 +680,9 @@ i<sys/time.h>
 i<windows.h>
 
 N/Users/kojikimura/git/flKinect/src/Cocoa/libs/libusb/lib/libusb-1.0.0.dylib
-c000000004CEB5CC20000000000012320
-t1290493122
-s74528
+c000000004CEE866100000000000122F0
+t1290700385
+s74480
 
 N/Users/kojikimura/git/flKinect/src/Cocoa/libs/libusb/lib/libusb-1.0.dylib
 c000000004CEE7FF800000000000122F0
@@ -745,7 +748,7 @@ s842
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies312392629#312392629#0(0"0(0#1#0"8604286528#0"0#
+lSLF07#2@18"Check dependencies312395751#312395751#0(0"0(0#1#0"8614510272#0"0#
 
 CCompileC build/flKinect.build/Release/flKinect.build/Objects-normal/i386/AppController.o /Users/kojikimura/git/flKinect/src/Cocoa/Classes/AppController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s312392594.524760
@@ -1186,13 +1189,13 @@ xEnglish.lproj/InfoPlist.strings
 lSLF07#2@36"Copy English.lproj/InfoPlist.strings312221697#312221697#0(0"0(0#0#84"/Users/kojikimura/Desktop/Cocoa Application/flKinect/English.lproj/InfoPlist.strings8626260160#401"    cd "/Users/kojikimura/Desktop/Cocoa Application/flKinect"    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir "/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release/flKinect.app/Contents/Resources/English.lproj"0#
 
 CCopyStringsFile /Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
-s312369628.352712
-e312369628.407584
+s312393647.351282
+e312393647.490956
 r1
 xCopyStringsFile
 x/Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app/Contents/Resources/English.lproj/InfoPlist.strings
 xEnglish.lproj/InfoPlist.strings
-lSLF07#2@36"Copy English.lproj/InfoPlist.strings312369628#312369628#0(0"0(0#0#72"/Users/kojikimura/git/flKinect/src/Cocoa/English.lproj/InfoPlist.strings8607899776#373"    cd /Users/kojikimura/git/flKinect/src/Cocoa    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app/Contents/Resources/English.lproj0#
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings312393647#312393647#0(0"0(0#0#72"/Users/kojikimura/git/flKinect/src/Cocoa/English.lproj/InfoPlist.strings8620400608#373"    cd /Users/kojikimura/git/flKinect/src/Cocoa    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app/Contents/Resources/English.lproj0#
 
 CCpResource build/Release/flKinect.app/Contents/Resources/CMakeLists.txt libs/libfreenect/lib/CMakeLists.txt
 s312392468.785087
@@ -1212,6 +1215,15 @@ xbuild/Release/flKinect.app/Contents/Resources/icon.icns
 xdesign/icon.icns
 lSLF07#2@21"Copy design/icon.icns312221697#312221697#0(0"0(0#0#69"/Users/kojikimura/Desktop/Cocoa Application/flKinect/design/icon.icns8625338240#404"    cd "/Users/kojikimura/Desktop/Cocoa Application/flKinect"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/kojikimura/Desktop/Cocoa Application/flKinect/design/icon.icns" "/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release/flKinect.app/Contents/Resources"0#
 
+CCpResource build/Release/flKinect.app/Contents/Resources/libusb-1.0.0.dylib libs/libusb/lib/libusb-1.0.0.dylib
+s312393647.350680
+e312393647.452519
+r1
+xCpResource
+xbuild/Release/flKinect.app/Contents/Resources/libusb-1.0.0.dylib
+xlibs/libusb/lib/libusb-1.0.0.dylib
+lSLF07#2@39"Copy libs/libusb/lib/libusb-1.0.0.dylib312393647#312393647#0(0"0(0#0#75"/Users/kojikimura/git/flKinect/src/Cocoa/libs/libusb/lib/libusb-1.0.0.dylib8607421600#380"    cd /Users/kojikimura/git/flKinect/src/Cocoa    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/kojikimura/git/flKinect/src/Cocoa/libs/libusb/lib/libusb-1.0.0.dylib /Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app/Contents/Resources0#
+
 CCreateUniversalBinary /Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app/Contents/MacOS/flKinect normal "i386 ppc"
 r0
 
@@ -1228,13 +1240,13 @@ x/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release/flKinect.app
 lSLF07#2@99"GenerateDSYMFile build/Release/flKinect.app.dSYM build/Release/flKinect.app/Contents/MacOS/flKinect312313457#312313458#0(0"0(0#0#103"/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release/flKinect.app/Contents/MacOS/flKinect8624812160#290"    cd "/Users/kojikimura/Desktop/Cocoa Application/flKinect"    /Developer/usr/bin/dsymutil "/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release/flKinect.app/Contents/MacOS/flKinect" -o "/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release/flKinect.app.dSYM"0#
 
 CGenerateDSYMFile /Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app.dSYM /Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app/Contents/MacOS/flKinect
-s312392629.652306
-e312392629.765074
+s312395678.413377
+e312395678.428473
 r1
 xGenerateDSYMFile
 x/Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app.dSYM
 x/Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app/Contents/MacOS/flKinect
-lSLF07#2@99"GenerateDSYMFile build/Release/flKinect.app.dSYM build/Release/flKinect.app/Contents/MacOS/flKinect312392629#312392629#0(0"0(0#0#91"/Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app/Contents/MacOS/flKinect8608573728#248"    cd /Users/kojikimura/git/flKinect/src/Cocoa    /Developer/usr/bin/dsymutil /Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app/Contents/MacOS/flKinect -o /Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app.dSYM0#
+lSLF07#2@99"GenerateDSYMFile build/Release/flKinect.app.dSYM build/Release/flKinect.app/Contents/MacOS/flKinect312395678#312395678#0(0"0(0#0#91"/Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app/Contents/MacOS/flKinect8606268352#248"    cd /Users/kojikimura/git/flKinect/src/Cocoa    /Developer/usr/bin/dsymutil /Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app/Contents/MacOS/flKinect -o /Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app.dSYM0#
 
 CLd "/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release/flKinect.app/Contents/MacOS/flKinect" normal x86_64
 s312313457.753539
@@ -1247,14 +1259,15 @@ xx86_64
 lSLF07#2@108"Link /Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release/flKinect.app/Contents/MacOS/flKinect312313457#312313457#0(0"0(0#0#0"8625477632#720"    cd "/Users/kojikimura/Desktop/Cocoa Application/flKinect"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.5.sdk "-L/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release" "-L/Users/kojikimura/Desktop/Cocoa Application/flKinect/libs/libusb/lib" "-F/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release" -filelist "/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/flKinect.LinkFileList" -mmacosx-version-min=10.5 -framework Cocoa -lusb-1.0.0 -o "/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release/flKinect.app/Contents/MacOS/flKinect"0#
 
 CLd /Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app/Contents/MacOS/flKinect normal x86_64
-s312392629.617444
-e312392629.652209
+s312395678.383620
+e312395678.413281
 r1
 xLd
 x/Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app/Contents/MacOS/flKinect
 xnormal
 xx86_64
-lSLF07#2@96"Link /Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app/Contents/MacOS/flKinect312392629#312392629#0(0"0(0#0#0"8606415456#634"    cd /Users/kojikimura/git/flKinect/src/Cocoa    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/kojikimura/git/flKinect/src/Cocoa/build/Release -L/Users/kojikimura/git/flKinect/src/Cocoa/libs/libusb/lib -F/Users/kojikimura/git/flKinect/src/Cocoa/build/Release -filelist /Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/flKinect.LinkFileList -mmacosx-version-min=10.5 -framework Cocoa -lusb-1.0 -o /Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app/Contents/MacOS/flKinect0#
+old: warning: directory 'Contents/Resources' following -L not found
+lSLF07#2@96"Link /Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app/Contents/MacOS/flKinect312395678#312395678#0(67"ld: warning: directory 'Contents/Resources' following -L not found1(22@53"Directory 'Contents/Resources' following -L not found312395678#0#67#0(6@0"312395678#0#0#0#0#0"0(0#0#0"8606337152#657"    cd /Users/kojikimura/git/flKinect/src/Cocoa    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/kojikimura/git/flKinect/src/Cocoa/build/Release -LContents/Resources -L/Users/kojikimura/git/flKinect/src/Cocoa/libs/libusb/lib -F/Users/kojikimura/git/flKinect/src/Cocoa/build/Release -filelist /Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/x86_64/flKinect.LinkFileList -mmacosx-version-min=10.5 -lusb-1.0.0 -framework Cocoa -o /Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app/Contents/MacOS/flKinect0#
 
 CLd /Users/kojikimura/git/flKinect/src/Cocoa/build/flKinect.build/Release/flKinect.build/Objects-normal/i386/flKinect normal i386
 s312392615.725462
@@ -1548,10 +1561,10 @@ x/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release/flKinect.app
 lSLF07#2@85"Touch /Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release/flKinect.app312313458#312313458#0(0"0(0#0#0"8627672480#166"    cd "/Users/kojikimura/Desktop/Cocoa Application/flKinect"    /usr/bin/touch -c "/Users/kojikimura/Desktop/Cocoa Application/flKinect/build/Release/flKinect.app"0#
 
 CTouch /Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app
-s312392629.765184
-e312392629.767472
+s312395678.428553
+e312395678.430702
 r1
 xTouch
 x/Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app
-lSLF07#2@73"Touch /Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app312392629#312392629#0(0"0(0#0#0"8605967904#138"    cd /Users/kojikimura/git/flKinect/src/Cocoa    /usr/bin/touch -c /Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app0#
+lSLF07#2@73"Touch /Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app312395678#312395678#0(0"0(0#0#0"8606249568#138"    cd /Users/kojikimura/git/flKinect/src/Cocoa    /usr/bin/touch -c /Users/kojikimura/git/flKinect/src/Cocoa/build/Release/flKinect.app0#
 

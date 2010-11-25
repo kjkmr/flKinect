@@ -11,9 +11,8 @@
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
-		E904C17E129EBBA600D98879 /* libusb-1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E904C17D129EBBA600D98879 /* libusb-1.0.dylib */; };
+		E904C1B2129EC79D00D98879 /* libusb-1.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E904C18C129EBEC600D98879 /* libusb-1.0.0.dylib */; };
 		E9165BA6129B973000BE7F96 /* cameras.c in Sources */ = {isa = PBXBuildFile; fileRef = E9165B9A129B973000BE7F96 /* cameras.c */; };
-		E9165BA7129B973000BE7F96 /* CMakeLists.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9165B9B129B973000BE7F96 /* CMakeLists.txt */; };
 		E9165BA8129B973000BE7F96 /* core.c in Sources */ = {isa = PBXBuildFile; fileRef = E9165B9C129B973000BE7F96 /* core.c */; };
 		E9165BA9129B973000BE7F96 /* tilt.c in Sources */ = {isa = PBXBuildFile; fileRef = E9165B9E129B973000BE7F96 /* tilt.c */; };
 		E9165BAA129B973000BE7F96 /* usb_libusb10.c in Sources */ = {isa = PBXBuildFile; fileRef = E9165B9F129B973000BE7F96 /* usb_libusb10.c */; };
@@ -34,7 +33,7 @@
 		32CA4F630368D1EE00C91783 /* flKinect_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = flKinect_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* flKinect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flKinect.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E904C17D129EBBA600D98879 /* libusb-1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libusb-1.0.dylib"; sourceTree = "<group>"; };
+		E904C18C129EBEC600D98879 /* libusb-1.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libusb-1.0.0.dylib"; sourceTree = "<group>"; };
 		E9165B97129B973000BE7F96 /* libfreenect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libfreenect.h; sourceTree = "<group>"; };
 		E9165B98129B973000BE7F96 /* libfreenect.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = libfreenect.hpp; sourceTree = "<group>"; };
 		E9165B9A129B973000BE7F96 /* cameras.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cameras.c; sourceTree = "<group>"; };
@@ -59,8 +58,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E904C1B2129EC79D00D98879 /* libusb-1.0.0.dylib in Frameworks */,
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
-				E904C17E129EBBA600D98879 /* libusb-1.0.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,7 +208,7 @@
 		E9165BA4129B973000BE7F96 /* lib */ = {
 			isa = PBXGroup;
 			children = (
-				E904C17D129EBBA600D98879 /* libusb-1.0.dylib */,
+				E904C18C129EBEC600D98879 /* libusb-1.0.0.dylib */,
 			);
 			path = lib;
 			sourceTree = "<group>";
@@ -269,7 +268,6 @@
 			files = (
 				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
-				E9165BA7129B973000BE7F96 /* CMakeLists.txt in Resources */,
 				E9165BB3129B975900BE7F96 /* icon.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -330,6 +328,7 @@
 				INSTALL_PATH = "$(HOME)/Applications";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					Contents/Resources/,
 					"\"$(SRCROOT)/libs/libusb/lib\"",
 				);
 				PRODUCT_NAME = flKinect;
@@ -351,6 +350,7 @@
 				INSTALL_PATH = "$(HOME)/Applications";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					Contents/Resources/,
 					"\"$(SRCROOT)/libs/libusb/lib\"",
 				);
 				PRODUCT_NAME = flKinect;
