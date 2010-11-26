@@ -229,8 +229,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -320,12 +318,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>InfoPlist.strings</string>
+								<string>flWii_Prefix.pch</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -333,11 +333,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>InfoPlist.strings</string>
+										<string>flWii_Prefix.pch</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>E904C1B7129EC7E400D98879</string>
+										<string>E904C1BD129ED85300D98879</string>
 										<key>history</key>
 										<array>
 											<string>E9165C01129BA10300BE7F96</string>
@@ -356,7 +356,8 @@
 											<string>E9217A89129E610E0067AB77</string>
 											<string>E9217AA8129E62060067AB77</string>
 											<string>E9217AA9129E62060067AB77</string>
-											<string>E9217ABF129E67340067AB77</string>
+											<string>E904C1BA129ED85300D98879</string>
+											<string>E904C1BB129ED85300D98879</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
